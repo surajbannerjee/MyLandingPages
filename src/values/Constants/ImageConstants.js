@@ -165,7 +165,7 @@ export const TOP_ARROW_ICON = URL('/images/craveKavaImages/top-arrow-icon.png');
 
 /////////////////////////////////////////////////////////////////////////
 // HandCarvedTurtles Images
-export const HCTLOGO = URL('/images/handCarvedTurtlesImages/Logo.png');
+export const HCTLOGO = URL('/images/handCarvedTurtlesImages/logo.png');
 export const HCTBANNERSLIDER1 = URL('/images/handCarvedTurtlesImages/bannerSlider1.png');
 export const HCTBANNERSLIDER2 = URL('/images/handCarvedTurtlesImages/bannerSlider2.png');
 export const HCTBANNERSLIDER3 = URL('/images/handCarvedTurtlesImages/bannerSlider3.png');
