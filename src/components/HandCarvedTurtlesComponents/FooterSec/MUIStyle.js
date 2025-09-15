@@ -14,6 +14,7 @@ export const MUIStyle = {
             lg: "50px",
             xl: "50px",
         },
+        paddingBottom: "30px",
     },
     FooterContentLeft: {
         display: "flex",
@@ -186,7 +187,7 @@ export const MUIStyle = {
     FooterLogoText: {
         fontSize: FONT_SIZE.heading24,
         fontWeight: FONT_WEIGHT.MEDIUM,
-        color: commonColor.MWLightGrey,
+        color: commonColor.HCTGreen,
         lineHeight: "150%",
     },
     FooterMenuBox: {
@@ -228,8 +229,8 @@ export const MUIStyle = {
     },
     FooterMenuTitleText: {
         fontSize: FONT_SIZE.heading24,
-        fontWeight: FONT_WEIGHT.MEDIUM,
-        color: commonColor.white,
+        fontWeight: FONT_WEIGHT.BOLD,
+        color: commonColor.HCTGreen,
         lineHeight: "150%",
     },
     FooterMenuUl: {
@@ -244,7 +245,7 @@ export const MUIStyle = {
     FooterMenuText: {
         fontSize: FONT_SIZE.text18,
         fontWeight: FONT_WEIGHT.MEDIUM,
-        color: commonColor.MWLightGrey,
+        color: commonColor.HCTGreen,
         transition: "all 0.4s ease-in-out",
         "&:hover": {
             color: commonColor.MGoldPrimary,
