@@ -11,7 +11,7 @@ const nextConfigDevelopment = {
 
 const nextConfigProduction = {
     env: {
-        BASE_URL: 'http://194.163.131.163:9001',
+        BASE_URL: 'https://my-landing-pages-lac.vercel.app',
         // BASE_URL: 'http://localhost:9000',
     },
     compiler: { styledComponents: true, }
