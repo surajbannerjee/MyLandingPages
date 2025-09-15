@@ -1,0 +1,30 @@
+.bannerSlider.slick-slider .slick-list {
+  overflow: visible;
+}
+.bannerSlider.slick-slider .slick-list .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerSlider.slick-slider .slick-list .slick-track .slick-slide > div {
+  height: 100%;
+  width: 100%;
+}
+.bannerSlider .slick-slide {
+  transition: all 0.5s ease;
+}
+.bannerSlide .slick-slide.slick-active.slick-center.slick-current {
+  width: 900px !important;
+  height: 400px !important;
+  scale: 1;
+  padding: 0 12px;
+}
+.bannerSlide .slick-slide {
+  width: 250px !important;
+  height: 300px !important;
+  padding: 0 12px;
+  scale: 1;
+}
+.bannerSlide .slick-slide.slick-active {
+  scale: 1.2;
+}

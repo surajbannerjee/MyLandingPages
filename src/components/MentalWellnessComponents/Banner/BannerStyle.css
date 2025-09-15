@@ -1,0 +1,53 @@
+/* @Suraj, use media query if necessary */
+@media (min-width: 1200px) {
+  .bannerSlider .slick-slide.slick-center > div {
+    /* This is the center slide */
+    /* Transforms the center slide to be bigger than the rest of the slides */
+    transform: scaleY(1) scaleX(1.9);
+    transition: all 1s ease;
+  }
+
+  .bannerSlider .slick-slide.slick-active:has(+ .slick-center) > div {
+    /* This the exact left slide of center */
+    /* Transforms the left slide to be smaller than the rest of the slides and make it shift to left side a little bit */
+    transform: scale(0.8) translateX(-140px);
+    transition: all 1s ease;
+  }
+
+  .bannerSlider
+    .slick-slide.slick-active:not(:has(+ .slick-center), .slick-center)
+    > div {
+    /* This is the exact right slide of center */
+    /* Transform the right slide to be smaller than the rest of the slides and make it shift to right side a little bit  */
+    transform: scale(0.8) translateX(100px);
+    transition: all 1s ease;
+  }
+  .bannerSlider
+    .slick-slide.slick-active:not(:has(+ .slick-center), .slick-center)
+    > div
+    > .BannerSliderImg
+    > img {
+    object-fit: fill !important;
+  }
+
+  .bannerSlider .slick-slide:not(.slick-active, .slick-center) > div {
+    /* This is the rest of the slides */
+    /* Transform the rest of the slides to be smaller than the center slide */
+    transform: scale(0.7) translateX(-100px);
+    transition: all 1s ease;
+  }
+  .slick-center.slick-current + .slick-slide.slick-active {
+    transform: translateX(40px);
+    transition: all 1s ease;
+  }
+  .slick-center.slick-current + .slick-slide.slick-active + .slick-slide {
+    transform: translateX(150px);
+    transition: all 1s ease;
+  }
+  .slick-center.slick-current
+    + .slick-slide.slick-active
+    + .slick-slide
+    + .slick-slide {
+    transform: translateX(200px);
+  }
+}

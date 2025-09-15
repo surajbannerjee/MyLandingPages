@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif !important;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+button,
+input,
+select,
+textarea,
+::placeholder {
+  font-size: 100%;
+  font-family: "Lato", sans-serif !important;
+}
+
+span {
+  display: inline-block;
+  font-family: "Lato", sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s !important;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0;
+}
+
+figure {
+  margin: 0 0 0 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif !important;
+}
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Lora", serif !important;
+}
+
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+a:hover {
+  transition: 0.5s;
+}
+
+a,
+button,
+input[type="submit"] {
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Lato", sans-serif;
+}

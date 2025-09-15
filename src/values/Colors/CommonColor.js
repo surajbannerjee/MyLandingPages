@@ -1,0 +1,62 @@
+
+export const colorAlias = {
+    DEFAULT: "default",
+    BLUE: "blue",
+    RED: "red",
+    DARK: "dark"
+};
+
+export const commonColor = {
+    black: "#252B3C",
+    white: "#fff",
+    textColor2: "#858595",
+    text: "#5A637B",
+    PrimaryColor: "#3166FF",
+    Secondarycolor: "#DB20A0",
+    Trans: "rgba(0,0,0,0)",
+    purple: "#8E31FF",
+    Deepblue: "#0F2D60",
+    socialBg: "#0A3D66",
+    borderColor1: "#89BBDF",
+    // tallk color scheme
+    tallkBlue: "#006CFF",
+    tallkDarkBlue: "#0B3558",
+    tallkLightBlue: "#476788",
+    talkDarkblue1: "#213258",
+    tallkBgBlue: "#DAEAFF",
+    trustTeamBG: "#ECF4FF",
+    trustTallkBGColor2: "#DFE5FF",
+    btnGradient: "linear-gradient(90deg, #006CFF 0%, #0551B8 100%)",
+    btnGradient2: "linear-gradient(90deg, #0551B8 0%, #006CFF 100%)",
+    cardBg: "#E9EAFF",
+    // MentalWellness color scheme
+    MGoldPrimary: "#E4A83A",
+    MLightGold: "#DAA520",
+    MMediumGold: "#00A99D",
+    MSecondary: "#013220",
+    MRed: "#FF5666",
+    MWhiteBg: "#FFFBF5",
+    MBlack: "#1A1110",
+    MMediumGrey: "#74706A",
+    MLightGreenText: "#D2D6D4",
+    MGreen: "#0A774F",
+    MGoldFade: "#DBD5CB",
+    MDark: "#201F1D",
+    MWGreenDeep: "#07402B",
+    MWDarkGreen: "#05291C",
+    MWLightGrey: "#BDD4CC",
+    MWLightBG: "#FBF5F0",
+    MWNewsletterinput: "#172621",
+
+    // HandCarvedTurtles colors scheme
+    HCTGreen: "#004D40",
+    HCTMidiumGray: "#5C6167",
+    HCTRed: "#F25B08",
+    HCTText: "#37405F",
+    HCTLightpink: "#FFF6EE",
+    HCTPink: "#FACFC5",
+    HCTText2: "#4C4C4C",
+    HCTFadePink: "#FFF7F5",
+    btnGradient3: "linear-gradient(90deg, rgb(0 77 64) 0%, rgb(0 77 64 / 0%) 100%)",
+    HTCBDR: "#FEDECD",
+};  

@@ -1,0 +1,1796 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+/* cmn css */
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s !important;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+figure {
+    margin: 0 0 0 0;
+}
+
+p {
+    margin-bottom: 8px;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: "Montserrat";
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+a:hover {
+    transition: 0.5s;
+}
+
+a,
+button,
+input[type="submit"] {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* header sec */
+
+.header-adventure-main-sec {
+    position: relative;
+    z-index: 20;
+}
+
+.header-first-login-secmain {
+    background: #17161b;
+    padding: 15px 0;
+    position: relative;
+}
+
+.logo-sec-header a {
+    width: 208px;
+    height: 56px;
+}
+
+.right-sec-header-cart {
+    text-align: right;
+}
+
+.right-sec-header-cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-headerinr {
+    position: absolute;
+    left: 0;
+    top: -50%;
+    width: 100%;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    background: #17161b;
+    padding: 15px 20px;
+}
+
+.search-headerinr.active__searchbox {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+    z-index: 2;
+}
+
+.search-headerinr input {
+    width: 100%;
+    height: 45px;
+    padding: 10px 20px;
+    border: 1px solid #1f513f;
+    outline: none;
+    border-radius: 4px;
+}
+
+.search-iconopen-pop {
+    border: none;
+    background: transparent;
+    width: 36px;
+    height: 36px;
+    padding: 2px;
+}
+
+.searchbox-inrdiv {
+    border-right: 1px solid #fff;
+    padding-right: 30px;
+}
+
+.call-sec-header {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #ffffff;
+}
+
+.call-sec-header:hover {
+    color: #1f513f;
+}
+
+.call-sec-header:hover img {
+    filter: invert(24%) sepia(12%) saturate(1862%) hue-rotate(107deg) brightness(98%) contrast(90%);
+}
+
+.call-sec-header {
+    border-right: 1px solid #fff;
+    padding-right: 30px;
+}
+
+.login-btn-header {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    background: #ffffff;
+    padding: 8px 22px;
+    color: #1f513f;
+    border: none;
+    border-radius: 35px;
+    transition: 0.5s ease-in-out;
+}
+
+.login-btn-header:hover {
+    box-shadow: inset 0 100px #1f513f;
+    color: #fff;
+}
+
+.login-btn-header:hover img {
+    filter: invert(1) brightness(15);
+}
+
+.login-btn-header img,
+.call-sec-header img {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.second-header-navbar-secmain {
+    padding: 30px 0;
+    border-top: 0.3px solid #4e4d49;
+    background: #fff;
+}
+
+.header-navbar-inrsec {
+    text-align: center;
+}
+
+.header-navbar-inrsec li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.header-navbar-inrsec li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-navbar-inrsec li a {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #4e4d49;
+}
+
+.header-navbar-inrsec .dropdown-item-li a {
+    padding-right: 18px;
+    background: url("/images/fuelMemoriesImages/down-arrow-icon.png") no-repeat;
+    background-position: right center;
+}
+
+.dropdown-pop-inr-header {
+    display: none;
+    background: #17161b;
+    padding: 15px 15px 10px;
+    min-width: 250px;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-pop-inr-header.active__dropdown__pophead {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.header-navbar-inrsec .dropdown-pop-inr-header li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.header-navbar-inrsec .dropdown-pop-inr-header li a {
+    color: #fff;
+    background: none;
+    padding-right: 0;
+}
+
+/* homepage */
+
+/* home bnr */
+
+.homapage-banner-main-sec {
+    position: relative;
+    z-index: 4;
+}
+
+.bnr-sec-img-home {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bnr-sec-img-home::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    content: "";
+    background: url("/images/fuelMemoriesImages/homebnr-cloud-before.png") no-repeat;
+    background-position: bottom center;
+    background-size: 100% 100%;
+}
+
+.bnr-sec-img-home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homebnr-inr-sec {
+    padding: 70px 0;
+}
+
+.left-secbnr-details h1 {
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+.left-secbnr-details p {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: #ffffff;
+}
+
+.homebnr-social-icon {
+    margin-top: 140px;
+}
+
+.homebnr-social-icon a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.homebnr-social-icon a:hover {
+    box-shadow: 0 0 20px #252525;
+    transform: translateY(-8px);
+    background: #1f513f;
+}
+
+.homebnr-social-icon a {
+    display: inline-block;
+}
+
+.homebnr-social-icon a:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* perfect adventure */
+
+.perfect-adventure-main-sec {
+    padding: 86px 0 86px;
+}
+
+.category-adven-heading-inr h2 {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    letter-spacing: 0.01em;
+    color: #4c4f56;
+    margin-bottom: 18px;
+}
+
+.category-adven-heading-inr p {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #999999;
+    padding-left: 55px;
+    position: relative;
+}
+
+.category-adven-heading-inr p::before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 40px;
+    height: 1px;
+    content: "";
+    background: #999999;
+}
+
+.perfect-adventure-scroll-sec-cards {
+    margin-top: 45px;
+    overflow-y: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-bottom: 46px;
+}
+
+.perfect-adventure-scroll-sec-cards::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    border-radius: 13px;
+}
+
+.perfect-adventure-scroll-sec-cards::-webkit-scrollbar-track {
+    background: #e8e8e833;
+}
+
+.perfect-adventure-scroll-sec-cards::-webkit-scrollbar-thumb {
+    background: #1f513f33;
+    width: 100px;
+}
+
+.cards-inr-perfect-adventure {
+    border: 1px solid #e6e6e6;
+    box-shadow: 37px 45px 16px 0px #dbdbdb00;
+    padding: 12px 12px 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+    min-width: 430px;
+}
+
+.cmnreadmore__btnperadven {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #1f513f;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.cmnmore__content__cards {
+    display: none;
+}
+
+.cards-inr-perfect-adventure:hover {
+    box-shadow: 0 0 20px #ffaa83;
+}
+
+.last-cards-details-adventure-home {
+    padding-top: 20px;
+}
+
+.tagdes-adven-categroy {
+    background: #ff580c1a;
+    padding: 9px 12px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.77px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #ff580c;
+    display: inline-block;
+    border-radius: 21px;
+}
+
+.tagdes-adven-categroy:not(:last-child) {
+    margin-right: 15px;
+}
+
+.cards-linkbtnmiddle a {
+    background: #1f513f;
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    transition: 0.4s;
+}
+
+.cards-linkbtnmiddle a:hover {
+    background: #ff580c;
+    box-shadow: 0 0px 5px #444444;
+}
+
+.first-cards-adventure-imginr img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.last-cards-details-adventure-home h3 {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #4e4d49;
+    margin-bottom: 23px;
+}
+
+.last-cards-details-adventure-home p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #787878;
+}
+
+.cards-middle-inr-adven {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.explore-btn-seclast {
+    margin-top: 40px;
+}
+
+.explore-all-btn {
+    background: #1f513f;
+    border: 1px solid #1f513f;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: fit-content;
+    text-align: center;
+    color: #f4f2ed;
+    transition: 0.5s;
+}
+
+.explore-all-btn:hover {
+    box-shadow: inset 0 0 0 150px #fff;
+    color: #1f513f;
+}
+
+/* discover sec */
+
+.discover-destination-explore-inr {
+    padding-bottom: 38px;
+}
+
+.discover-headinginr {
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 29px;
+    margin-bottom: 39px;
+}
+
+.discover-headinginr h2 {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    letter-spacing: 0.01em;
+    color: #4c4f56;
+    margin-bottom: 10px;
+}
+
+.left-walking-explore-sec h3 {
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 27px;
+}
+
+.rating-google-discoverhome {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1f513f;
+}
+
+.rating-google-discoverhome b {
+    color: #999999;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.rating-google-discoverhome img {
+    margin-left: 20px;
+}
+
+.right-save-share-destination {
+    text-align: right;
+}
+
+.right-save-share-destination a:not(:last-child) {
+    margin-right: 30px;
+}
+
+.share-btn-discovehome {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.share-btn-discovehome:hover {
+    box-shadow: inset 0 90px #1f513f;
+}
+
+.save-btn-discove-home {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 12px 20px;
+    color: #1f513f;
+    border-radius: 32px;
+    transition: 0.4s;
+}
+
+.save-btn-discove-home:hover {
+    box-shadow: inset 0 100px #1f513f;
+    color: #fff;
+}
+
+.save-btn-discove-home:hover img,
+.share-btn-discovehome:hover img {
+    filter: invert(1) brightness(20);
+}
+
+.save-btn-discove-home img {
+    margin-right: 6px;
+}
+
+/* walking-explore gallery */
+
+.leftcol-explore-gallery-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    height: 502px;
+}
+
+.leftcol-explore-gallery-img:hover img,
+.rightcol-explore-gallery-inside:hover img {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.rightcol-explore-gallery-inside {
+    position: relative;
+}
+
+.rightcol-explore-gallery-inside img {
+    width: 100%;
+    object-fit: cover;
+    height: 238px;
+    border-radius: 18px;
+}
+
+.rightcol-explore-gallery-img [class*="col-"]:first-child .rightcol-explore-gallery-inside {
+    margin-bottom: 25px;
+}
+
+.see-all-exploresbtn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #ffffff;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15.77px;
+    color: #1c1c1c;
+    padding: 9px 12px;
+    border-radius: 21px;
+    outline: none;
+    border: 1px solid #ffffff;
+}
+
+.see-all-exploresbtn:hover {
+    box-shadow: inset 0 90px #1f513f;
+    color: #fff;
+}
+
+/* walking tour tabs */
+
+.walking-tour-fulldescription-main {
+    margin-top: 44px;
+}
+
+.tab-content-walking-tour {
+    display: none;
+}
+
+.tab-content-walking-tour.tab__linkcontentactive {
+    display: block;
+}
+
+.tab-content-walking-tour h3 {
+    font-family: "Montserrat";
+    font-size: 19.65px;
+    font-weight: 500;
+    line-height: 29.47px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+    color: #4e4d49;
+}
+
+.tab-content-walking-tour p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #4e4d49;
+}
+
+.tab-content-walking-tour p:first-child {
+    margin-bottom: 40px;
+}
+
+.tab-content-walking-tour p b {
+    font-weight: 400;
+}
+
+.tab-content-walking-tour .readmore__btn {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #1f513f;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.tab-content-walking-tour li {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.tab-menu-li {
+    margin-bottom: 20px;
+}
+
+.tab-menu-li ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.tab-menu-li li {
+    list-style: none;
+}
+
+.tab-menu-li li:not(:last-child) {
+    border-right: 1px solid #4e4d49;
+    padding-right: 20px;
+}
+
+.tab-menu-li li a {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    letter-spacing: 0.01em;
+    color: #4e4d49;
+}
+
+.tab-menu-li li .active__tablinkbtn {
+    font-weight: 600;
+    color: #1f513f;
+    text-decoration: underline;
+}
+
+/* read more */
+
+.more__txt__read {
+    display: none;
+}
+
+/* book adventure sec right */
+
+.book-adventure-sec-right {
+    box-shadow: 0px 16px 42px 0px #2c2c2c0f;
+    padding: 85px 42px 60px;
+    position: relative;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.book-adventure-sec-right h2 {
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #4e4d49;
+}
+
+.book-adventure-sec-right h2 b {
+    display: block;
+    color: #4e4d49;
+    font-weight: 500;
+}
+
+.sale-sec-tags-adventure {
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    background: #1f513f;
+    position: absolute;
+    left: 42px;
+    top: 0;
+    padding: 8px 40px 15px;
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 48% 100%, 0 71%);
+}
+
+.adventure-dalmore-sometra-sec li {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+}
+
+.adventure-dalmore-sometra-sec li:first-child {
+    list-style: none;
+}
+
+.adventure-dalmore-sometra-sec ul {
+    display: flex;
+    gap: 15px 35px;
+    align-items: flex-start;
+}
+
+.last-book-adven-btnsec {
+    margin-top: 40px;
+}
+
+.book-now-btn-adven {
+    background: #1f513f;
+    border: 1px solid #1f513f;
+    padding: 10px 20px;
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: 0.5s;
+}
+
+.book-now-btn-adven:hover {
+    box-shadow: inset 0 100px #fff;
+    color: #1f513f;
+}
+
+.contact-enquairy-btn-adven {
+    border: 1px solid #1f513f;
+    background: transparent;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+    color: #1f513f;
+    transition: 0.5s;
+}
+
+.contact-enquairy-btn-adven:hover {
+    color: #fff;
+    box-shadow: inset 0 120px #1f513f;
+}
+
+.adventure-pricing-sec {
+    margin-top: 40px;
+}
+
+.offer-tags-adventure {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    width: fit-content;
+    background: url("/images/fuelMemoriesImages/offer-tags-bg.png") no-repeat;
+    background-size: 100% 65%;
+    background-position: left center;
+    padding: 10px 15px 10px 10px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.price-deals-advent {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    color: #1f513f;
+    margin-bottom: 12px;
+}
+
+.price-deals-advent s {
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #999999;
+}
+
+.price-deals-advent b {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #999999;
+}
+
+.adventure-pricing-sec p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #4e4d49;
+}
+
+.tour-start-tags {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    padding: 5px 21px;
+    background: #50c9501a;
+    text-align: center;
+    border-radius: 8px;
+    color: #50c950;
+    margin-top: 18px;
+}
+
+/* get questions */
+
+.get-questions-main-sec {
+    padding: 56px 0 86px;
+}
+
+.get-questions-inr-sec {
+    background: #eafbf7;
+    border-radius: 18px;
+    position: relative;
+    z-index: 3;
+    padding: 77px 50px;
+}
+
+.bnr-img-questions {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bnr-img-questions img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.left-questions-sec h2 {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    color: #4e4d49;
+    margin-bottom: 28px;
+}
+
+.left-questions-sec p {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #4e4d49;
+}
+
+.questions-call-email-sec {
+    margin-top: 56px;
+}
+
+.questions-call-email-sec a {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    display: block;
+    color: #4e4d49;
+}
+
+.questions-call-email-sec a img {
+    margin-right: 6px;
+}
+
+.questions-call-email-sec a:hover {
+    color: #1f513f;
+}
+
+.questions-call-email-sec a:hover img {
+    filter: invert(24%) sepia(12%) saturate(1862%) hue-rotate(107deg) brightness(98%) contrast(90%);
+}
+
+.questions-call-email-sec a:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.right-question-imgsec img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* journey newsletter */
+
+.newsletter-journey-main-sec {
+    background: #3b423f;
+    padding: 40px 0;
+    position: relative;
+}
+
+.left-journey-inr {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.left-journey-inr h2 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+    max-width: 45%;
+    margin-bottom: 0;
+}
+
+.social-icon-sec-journey a {
+    width: 38px;
+    height: 38px;
+}
+
+.social-icon-sec-journey a:hover {
+    transform: translateY(-8px);
+}
+
+.social-icon-sec-journey a:not(:last-child) {
+    margin-right: 4px;
+}
+
+.right-inr-newsletter-form h2 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.form-group-newsletter {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.form-group-newsletter input:not([type="submit"]) {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    padding: 12px 12px;
+    color: #17161b;
+    outline: none;
+    transition: 0.5s;
+    border: 1px solid #3b423f;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.form-group-newsletter input:focus:not([type="submit"]:focus) {
+    border: 1px solid #1f513f;
+}
+
+.form-group-newsletter input::placeholder {
+    color: #28282880;
+}
+
+.form-group-newsletter input[type="submit"] {
+    background: #1f513f;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    padding: 12px 20px;
+    color: #fff;
+    outline: none;
+    border: 1px solid #1f513f;
+}
+
+.form-group-newsletter input[type="submit"]:hover {
+    color: #1f513f;
+    box-shadow: inset 0 100px #fff;
+}
+
+.newsletter-journey-main-sec::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 100%;
+    background: url("/images/fuelMemoriesImages/newsletter-before-divider.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    content: "";
+}
+
+/* footer sec */
+
+.adventure-footer-main-sec {
+    padding: 60px 0 50px;
+    background: url("/images/fuelMemoriesImages/footer-copyright-bg.png") no-repeat;
+    background-position: bottom center;
+    background-size: 100% 25%;
+}
+
+.footer-innersec {
+    padding-bottom: 48px;
+}
+
+.first-footer-logo-sec a {
+    margin-bottom: 16px;
+}
+
+.footer-maps-imgsec img,
+iframe {
+    width: 100%;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 18px;
+}
+
+.footer-contact-us-sec a {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #4e4d49;
+    display: block;
+}
+
+.footer-contact-us-sec a:not(:last-child) {
+    margin-bottom: 17px;
+}
+
+.footer-contact-us-sec a:hover {
+    color: #1f513f;
+}
+
+.footer-contact-us-sec a img {
+    margin-right: 6px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-cmn-heading-one {
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    letter-spacing: 0.04em;
+    color: #4e4d49;
+    margin-bottom: 30px;
+}
+
+.footerflex-innersec {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-cmn-links-sec li {
+    list-style: none;
+}
+
+.footer-cmn-links-sec li a {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #4e4d49;
+}
+
+.footer-cmn-links-sec li a:hover {
+    color: #1f513f;
+}
+
+/* copyright footer */
+
+.footer-copyright-sec {
+    border-top: 1px solid #dcdcdc;
+    padding: 12px 0;
+}
+
+.left-copyright-inr p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.left-copyright-inr p b {
+    font-weight: 400;
+    margin: 0 8px;
+}
+
+.right-paypal-cards-linkfooter {
+    text-align: right;
+}
+
+.right-paypal-cards-linkfooter a {
+    display: inline-block;
+}
+
+.right-paypal-cards-linkfooter a:not(:last-child) {
+    margin-right: 15px;
+}
+
+.scrool-to-top-btn {
+    background: #1f513f;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 1px solid #1f513f;
+    padding: 8px;
+    transition: 0.5s;
+    position: fixed;
+    right: 30px;
+    bottom: -50%;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 0 0 25px #ff580c;
+}
+
+.scrool-to-top-btn.active__scrolltopbtn {
+    bottom: 30px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.scrool-to-top-btn:hover {
+    background: #ff580c;
+    border: 1px solid #ff580c;
+}
+
+.close__btn__navbar {
+    position: fixed;
+    right: -50%;
+    top: 20px;
+    z-index: 70;
+    transition: 0.6s;
+    background: #ff580c;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.open__nav__btn {
+    display: none;
+    width: 42px;
+    height: 42px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+/* responsive css */
+
+@media (max-width: 1199px) {
+    .footerflex-innersec {
+        gap: 20px;
+    }
+
+    .footer-contact-us-sec a,
+    .footer-cmn-links-sec li a,
+    .left-copyright-inr p {
+        font-size: 15px;
+    }
+
+    .footer-cmn-heading-one {
+        font-size: 22px;
+    }
+
+    .left-journey-inr h2 {
+        max-width: 55%;
+    }
+
+    .book-adventure-sec-right h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 991px) {
+    .close__btn__navbar.active__close__nabar {
+        right: 20px;
+    }
+
+    .right-sec-header-cart .open__nav__btn {
+        display: inline-block;
+        margin-left: 8px;
+    }
+
+    .header-navbar-inrsec {
+        position: fixed;
+        left: -150%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #17161b;
+        z-index: 50;
+        transition: 0.5s;
+        padding: 40px 40px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .header-navbar-inrsec.active__navbar__open__nav {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header-navbar-inrsec ul {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .header-navbar-inrsec li a {
+        color: #fff;
+    }
+
+    .second-header-navbar-secmain {
+        padding: 0;
+    }
+
+    .searchbox-inrdiv,
+    .call-sec-header {
+        padding-right: 12px;
+    }
+
+    .right-sec-header-cart {
+        gap: 12px;
+    }
+
+    .login-btn-header {
+        padding: 8px 18px;
+    }
+
+    .call-sec-header {
+        font-size: 15px;
+    }
+
+    .search-iconopen-pop {
+        width: 25px;
+        height: 25px;
+    }
+
+    .logo-sec-header a {
+        width: 190px;
+        height: 45px;
+    }
+
+    .adventure-footer-main-sec {
+        padding: 40px 0 20px;
+    }
+
+    .footerflex-innersec {
+        flex-wrap: wrap;
+        gap: 35px 20px;
+    }
+
+    .footer-inrcardscmn:first-child,
+    .footer-inrcardscmn:nth-child(2) {
+        width: calc((100% / 2) - 20px);
+    }
+
+    .adventure-footer-main-sec {
+        background-size: 100%;
+    }
+
+    .left-secbnr-details h1 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 12px;
+    }
+
+    .left-secbnr-details p {
+        font-size: 18px;
+    }
+
+    .homebnr-social-icon {
+        margin-top: 80px;
+    }
+
+    .perfect-adventure-main-sec {
+        padding: 45px 0 45px;
+    }
+
+    .cards-inr-perfect-adventure {
+        min-width: 380px;
+    }
+
+    .category-adven-heading-inr h2,
+    .discover-headinginr h2 {
+        font-size: 30px;
+    }
+
+    .discover-headinginr {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .category-adven-heading-inr p,
+    .rating-google-discoverhome {
+        font-size: 17px;
+    }
+
+    .left-walking-explore-sec h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .save-btn-discove-home {
+        font-size: 18px;
+    }
+
+    .explore-all-btn {
+        padding: 10px 25px;
+    }
+
+    .rightcol-explore-gallery-img [class*="col-"]:first-child .rightcol-explore-gallery-inside {
+        margin-bottom: 20px;
+    }
+
+    .rightcol-explore-gallery-inside {
+        margin-bottom: 20px;
+    }
+
+    .book-adventure-sec-right {
+        padding: 80px 22px 40px;
+    }
+
+    .adventure-dalmore-sometra-sec ul {
+        flex-wrap: wrap;
+    }
+
+    .adventure-dalmore-sometra-sec li:first-child {
+        list-style: disc;
+    }
+
+    .adventure-pricing-sec {
+        margin-top: 20px;
+    }
+
+    .price-deals-advent s {
+        font-size: 20px;
+    }
+
+    .price-deals-advent b {
+        font-size: 18px;
+    }
+
+    .price-deals-advent {
+        font-size: 25px;
+    }
+
+    .tour-start-tags {
+        margin-top: 15px;
+        padding: 10px 15px;
+    }
+
+    .book-now-btn-adven,
+    .contact-enquairy-btn-adven {
+        font-size: 17px;
+    }
+
+    .tab-content-walking-tour p:first-child {
+        margin-bottom: 20px;
+    }
+
+    .tab-content-walking-tour li {
+        margin-bottom: 15px;
+    }
+
+    .left-questions-sec h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .questions-call-email-sec a {
+        font-size: 17px;
+    }
+
+    .left-journey-inr {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .left-journey-inr h2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .social-icon-sec-journey {
+        width: 100%;
+    }
+
+    .form-group-newsletter {
+        flex-wrap: wrap;
+    }
+
+    .newsletter-journey-main-sec {
+        padding: 30px 0;
+    }
+
+    .footer-cmn-heading-one {
+        margin-bottom: 20px;
+    }
+
+    .get-questions-main-sec {
+        padding: 40px 0 45px;
+    }
+
+    .bnr-sec-img-home {
+        background: #000;
+    }
+
+    .bnr-sec-img-home img {
+        opacity: 0.7;
+    }
+
+    .bnr-img-questions img {
+        object-position: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-sec-header {
+        margin-bottom: 12px;
+    }
+
+    .right-sec-header-cart {
+        justify-content: center;
+    }
+
+    .left-copyright-inr {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .right-paypal-cards-linkfooter {
+        text-align: center;
+    }
+
+    .leftcol-explore-gallery-img {
+        margin-bottom: 20px;
+    }
+
+    .leftcol-explore-gallery-img img {
+        height: 430px;
+    }
+
+    .right-save-share-destination {
+        margin-top: 15px;
+    }
+
+    .discover-destination-explore-inr {
+        padding-bottom: 25px;
+    }
+
+    .left-walking-explore-sec h3 {
+        font-size: 21px;
+    }
+
+    .left-secbnr-details h1 {
+        font-size: 35px;
+    }
+
+    .left-secbnr-details p {
+        font-size: 17px;
+    }
+
+    .homebnr-social-icon {
+        margin-top: 50px;
+    }
+
+    .homebnr-inr-sec {
+        padding: 55px 0;
+    }
+
+    .category-adven-heading-inr h2 {
+        margin-bottom: 14px;
+        font-size: 25px;
+    }
+
+    .discover-headinginr h2 {
+        font-size: 25px;
+    }
+
+    .rightcol-explore-gallery-inside img {
+        height: 300px;
+    }
+
+    .walking-tour-fulldescription-main {
+        margin-top: 20px;
+    }
+
+    .book-adventure-sec-right {
+        margin-top: 35px;
+    }
+
+    .get-questions-inr-sec {
+        padding: 50px 25px;
+    }
+
+    .left-questions-sec h2 {
+        font-size: 24px;
+    }
+
+    .questions-call-email-sec {
+        margin-top: 25px;
+    }
+
+    .newsletter-journey-main-sec::before {
+        display: none;
+    }
+
+    .right-inr-newsletter-form {
+        margin-top: 30px;
+    }
+
+    .perfect-adventure-scroll-sec-cards {
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .footer-copyright-sec {
+        padding: 15px 0 10px;
+    }
+
+    .see-all-exploresbtn {
+        padding: 10px 20px;
+    }
+
+    .leftcol-explore-gallery-img img {
+        height: 370px;
+    }
+
+    .tab-menu-li ul {
+        overflow-y: auto;
+        padding-bottom: 10px;
+    }
+
+    .tab-menu-li ul::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+    }
+
+    .tab-menu-li ul::-webkit-scrollbar-track {
+        background: #dbdbdb;
+    }
+
+    .tab-menu-li ul::-webkit-scrollbar-thumb {
+        background: #1f513f;
+    }
+}
+
+@media (max-width: 650px) {
+    .footerflex-innersec .footer-inrcardscmn {
+        width: 100%;
+    }
+
+    .footer-maps-imgsec img,
+    iframe {
+        height: 250px;
+    }
+
+    .bnr-sec-img-home::before {
+        height: 380px;
+    }
+
+    .category-adven-heading-inr p::before {
+        width: 35px;
+    }
+
+    .tab-menu-li li a {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .explore-all-btn {
+        width: 100%;
+    }
+
+    .form-group-newsletter input[type="submit"] {
+        width: 100%;
+    }
+
+    .category-adven-heading-inr p {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 479px) {
+    .right-sec-header-cart .open__nav__btn {
+        position: absolute;
+        right: 12px;
+        top: 15px;
+    }
+
+    .call-sec-header {
+        font-size: 13px;
+    }
+
+    .login-btn-header {
+        font-size: 14px;
+    }
+
+    .search-iconopen-pop {
+        width: 22px;
+        height: 22px;
+    }
+}

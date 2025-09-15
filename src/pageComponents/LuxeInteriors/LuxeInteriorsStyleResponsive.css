@@ -1,0 +1,429 @@
+/* responsive css */
+
+@media (max-width: 1199px) {
+  .desktop-logo-sec a {
+    width: 200px;
+  }
+  .cart-search-sec {
+    padding-left: 8px;
+  }
+  .right-sec-menu-search-cart-head {
+    gap: 8px;
+  }
+  .cmn-menu-link-css li a {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .cart-search-sec {
+    min-width: 38%;
+  }
+  .footer-menu-coyright li a {
+    font-size: 16px;
+  }
+  .copyright-txt-footer h3,
+  .last-blogs-heading-inner p {
+    font-size: 17px;
+  }
+  .footer-cmn-heading-one {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .cmn-cards-inside-footer-links p {
+    font-size: 18px;
+  }
+  .first-logo-footer-sec {
+    margin-bottom: 50px;
+  }
+  .last-blogs-heading-inner h3 {
+    font-size: 22px;
+  }
+  .blogs-date-posting {
+    font-size: 16px;
+  }
+  .home-cmn-heading-sec-one h2,
+  .cmn-testi-heading-home h3 {
+    font-size: 42px;
+  }
+  .first-product-collection-img figure img {
+    height: 280px;
+  }
+  .taglist-product-collection {
+    font-size: 17px;
+  }
+  .last-pro-collection-head-details h3 {
+    font-size: 21px;
+  }
+  .last-pro-collection-head-details h4 {
+    font-size: 22px;
+  }
+  .cards-offer-comfort h6 {
+    font-size: 34px;
+  }
+  .cards-offer-comfort h5 {
+    margin-bottom: 15px;
+  }
+  .comfort-luxury-firstcards h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .comfort-luxury-firstcards a {
+    font-size: 17px;
+  }
+  .homepage-bnr-inrsec h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .homepage-bnr-inrsec p {
+    font-size: 22px;
+  }
+  .slide-items-testi-inr h4 {
+    font-size: 28px;
+  }
+  .even-cards-modern-furniture h2 {
+    font-size: 28px;
+  }
+  .cmn-offertags-inr {
+    font-size: 20px;
+  }
+  .cards-first-inr-furniture h2 strong {
+    font-size: 27px;
+  }
+  .cards-first-inr-furniture a {
+    font-size: 17px;
+  }
+  .left-room-heading-details h3 {
+    font-size: 20px;
+  }
+  .cmn-homebnr-btn-one {
+    font-size: 18px;
+  }
+  .cmn-homebnr-btn-two {
+    font-size: 18px;
+  }
+  .cmn-cards-main-rooms-design {
+    flex-wrap: wrap;
+  }
+  .right-img-roomsinr {
+    max-width: 100%;
+  }
+  .left-room-heading-details {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .close__btn__navbar.active__close__nabar {
+    right: 20px;
+  }
+  .header-interi-inr .open__nav__btn {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .right-sec-header-cartfull-menus-desktop {
+    position: fixed;
+    right: -150%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bluetype);
+    z-index: 50;
+    transition: 0.5s;
+    padding: 40px 40px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .right-sec-header-cartfull-menus-desktop.active__navbar__open__nav {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+  .right-sec-header-cartfull-menus-desktop ul {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .right-sec-header-cartfull-menus-desktop li a {
+    color: #fff;
+  }
+  .right-sec-header-cartfull-menus-desktop li {
+    color: #fff;
+  }
+
+  .desktop-logo-sec {
+    display: none;
+  }
+  .right-sec-header-cartfull-menus-desktop,
+  .right-sec-menu-search-cart-head {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .cart-search-sec {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 15px;
+    min-width: 100%;
+  }
+  .cart-search-sec .searchbtn,
+  .cart-search-sec .cart-icon {
+    display: none;
+  }
+  .cart-search-sec button {
+    background: var(--white);
+    border-radius: 3px;
+    margin-right: 6px;
+  }
+  .mobile-logoheader-sec {
+    display: inline-block;
+  }
+  .header-interi-inr:not(.right-sec-header-cartfull-menus-desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .right__mobile__opendesktophidediv {
+    display: block;
+  }
+  .shipping-payment-cards-sec {
+    margin-bottom: 30px;
+  }
+  .homepage-bnr-inrsec h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .homepage-bnr-inrsec p {
+    font-size: 20px;
+  }
+  .shipping-home-sec {
+    padding: 45px 0 25px;
+  }
+  .home-decor-categories-mainsec {
+    padding: 60px 0 10px;
+  }
+  .furniture-exclusiveoffer-main-sec {
+    padding: 40px 0 60px;
+  }
+  .even-cards-modern-furniture {
+    margin-left: 0;
+  }
+  .cards-first-inr-furniture {
+    max-width: 100%;
+  }
+  .even-cards-modern-furniture {
+    margin: 0 auto;
+  }
+  .furniture-exclusiveoffer-main-sec
+    [class*="col-"]:nth-child(even)
+    .cards-furniture-offer-sec-inr
+    .cmn-offertags-inr,
+  .furniture-exclusiveoffer-main-sec
+    [class*="col-"]:nth-child(odd)
+    .cards-furniture-offer-sec-inr
+    .cmn-offertags-inr {
+    right: 10px;
+    top: 10px;
+  }
+  .cards-furniture-offer-sec-inr {
+    padding: 150px 15px 60px;
+  }
+  .all-cmn-cards-discollection-inside {
+    margin-bottom: 30px;
+  }
+  .discover-collection-main-sec {
+    padding-bottom: 50px;
+    margin-top: 15px;
+  }
+  .testimonials-main-sec {
+    padding: 60px 0 80px;
+  }
+  .slide-items-testi-inr h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .slide-items-testi-inr p {
+    font-size: 18px;
+  }
+  .our-blogs-main-sec {
+    margin: 60px 0 0;
+    padding-bottom: 40px;
+  }
+  .home-cmn-heading-sec-one h2,
+  .cmn-testi-heading-home h3 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .home-cmn-heading-sec-one {
+    margin-bottom: 40px;
+  }
+  .comfort-luxury-firstcards h2 {
+    font-size: 30px;
+  }
+  .comfort-luxury-firstcards a {
+    padding: 10px 25px;
+  }
+  .cards-offer-comfort h3 {
+    font-size: 25px;
+  }
+  .cards-offer-comfort h4 {
+    font-size: 18px;
+  }
+  .cards-offer-comfort h5 {
+    font-size: 22px;
+  }
+  .cards-offer-comfort h6 {
+    font-size: 26px;
+  }
+  .footer-inner-headinglink-mainsec {
+    justify-content: center;
+  }
+  .cmn-cards-inside-footer-links {
+    margin-bottom: 30px;
+  }
+  .footer-copyright-menu-sec-main {
+    margin-top: 15px;
+  }
+  .copyright-menu-sec-inr {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .customer-comfort-luxury-mainsec {
+    padding: 20px 0 60px;
+  }
+  .homepage-banner-main-sec {
+    padding: 100px 0;
+  }
+  .discover-collection-main-sec::after {
+    right: 20px;
+    top: 60px;
+  }
+  .discover-collection-main-sec::before {
+    left: 20px;
+    top: -60px;
+  }
+  .cmn-testi-heading-home {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .comfort-luxury-firstcards h2 {
+    font-size: 26px;
+  }
+  .comfort-luxury-inr {
+    padding: 140px 15px 60px;
+  }
+  .home-cmn-heading-sec-one h2,
+  .cmn-testi-heading-home h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .cmn-offertags-inr {
+    font-size: 18px;
+  }
+  .cards-first-inr-furniture h2 {
+    font-size: 20px;
+  }
+  .cards-first-inr-furniture h2 strong {
+    font-size: 24px;
+  }
+  .even-cards-modern-furniture h2 {
+    font-size: 22px;
+    margin: 0 15px;
+  }
+  .cards-furniture-offer-sec-inr {
+    margin-bottom: 30px;
+  }
+  .furniture-exclusiveoffer-main-sec {
+    padding: 40px 0 40px;
+  }
+  .home-decor-categories-mainsec::before {
+    top: 160px;
+    z-index: -1;
+  }
+  .shipping-payment-cards-sec h3 {
+    font-size: 21px;
+  }
+  .shipping-payment-cards-sec span img {
+    width: 45px;
+    height: 45px;
+  }
+  .first-product-collection-img figure img {
+    height: 400px;
+    width: 100%;
+  }
+  .cmn-testi-heading-home h2 {
+    font-size: 22px;
+  }
+  .left-room-heading-details {
+    text-align: center;
+  }
+  .cmn-cards-main-rooms-design {
+    justify-content: center;
+  }
+  .shipping-payment-cards-sec {
+    justify-content: center;
+  }
+  .homepage-bnr-inrsec h1 {
+    font-size: 40px;
+  }
+  .cmn-homebnr-btn-one,
+  .cmn-homebnr-btn-two,
+  .left-room-heading-details a {
+    font-size: 17px;
+  }
+  .slide-items-testi-inr .first-testi-profile {
+    width: 80px;
+    height: 80px;
+  }
+  .copyright-txt-footer h3,
+  .social-icons-copyright,
+  .footer-menu-coyright {
+    text-align: center;
+  }
+  .footer-menu-coyright li {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 479px) {
+  .mobile-logoheader-sec a {
+    width: 160px;
+  }
+  .right__mobile__opendesktophidediv .cart-icon {
+    width: 38px;
+    height: 38px;
+  }
+  .header-interi-inr .open__nav__btn {
+    width: 40px;
+    height: 40px;
+  }
+  .scrool-to-top-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .homepage-bnr-inrsec h1 {
+    font-size: 37px;
+  }
+  .cmn-homebnr-btn-one,
+  .cmn-homebnr-btn-two,
+  .comfort-luxury-firstcards a,
+  .cards-first-inr-furniture a {
+    width: 100%;
+  }
+  .cmn-homebnr-btn-sec a:not(:last-child) {
+    margin-right: 0;
+  }
+  .cmn-homebnr-btn-two {
+    margin-top: 20px;
+  }
+  .home-cmn-heading-sec-one h2,
+  .cmn-testi-heading-home h3 {
+    font-size: 28px;
+  }
+  .discover-collection-main-sec::after {
+    top: 120px;
+  }
+}
