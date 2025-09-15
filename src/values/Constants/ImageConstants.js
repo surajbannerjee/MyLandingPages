@@ -130,7 +130,7 @@ export const MWGETINTOUCHSMALLIMG = URL('/images/mentalWellnessImages/GetInTouch
 export const MWFOOTERTOPBG = URL('/images/mentalWellnessImages/OurContactSectionBG.png');
 export const MWWORKIMG = URL('/images/mentalWellnessImages/schedulework.png');
 
-export const MENTALWELLNESSWEBSITESS = URL('/images/mentalWellnessImages/MentalWellnessWebsiteSS.png');
+export const MENTALWELLNESSWEBSITESS = URL('/images/MentalWellnessImages/MentalWellnessWebsiteSS.png');
 
 
 // Luxe Interiors Images
