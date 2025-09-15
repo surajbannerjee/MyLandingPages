@@ -98,6 +98,7 @@ export const MUIStyle = {
     FooterSocialLinkBox: {
         display: "flex",
         gap: "20px",
+        flexWrap: "wrap",
     },
     FooterSocialLink: {
         color: commonColor.white,
