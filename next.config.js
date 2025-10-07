@@ -4,7 +4,7 @@ const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
 
 const nextConfigDevelopment = {
     env: {
-        BASE_URL: 'http://localhost:3000'
+        BASE_URL: 'https://my-landing-pages-lac.vercel.app/'
     },
     compiler: { styledComponents: true, }
 }
@@ -12,7 +12,7 @@ const nextConfigDevelopment = {
 const nextConfigProduction = {
     env: {
         // BASE_URL: 'https://my-landing-pages-lac.vercel.app',
-        BASE_URL: 'http://localhost:3000',
+        BASE_URL: 'https://my-landing-pages-lac.vercel.app/',
     },
     compiler: { styledComponents: true, }
 }
