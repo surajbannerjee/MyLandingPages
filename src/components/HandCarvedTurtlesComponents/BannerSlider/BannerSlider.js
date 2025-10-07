@@ -55,16 +55,16 @@ function SimpleSlider() {
         <div className={"bannerSliderArea"}>
             <Slider sx={MUIStyle.sliderBanner} {...settings}>
                 <Box sx={MUIStyle.sliderImgBox}>
-                    <Image height={1200} width={1200} src={HCTBANNERSLIDER1} />
+                    <Image height={1200} width={1200} alt="HCTBANNERSLIDER1" src={HCTBANNERSLIDER1} />
                 </Box>
                 <Box sx={MUIStyle.sliderImgBox}>
-                    <Image height={1200} width={1200} src={HCTBANNERSLIDER2} />
+                    <Image height={1200} width={1200} alt="HCTBANNERSLIDER2" src={HCTBANNERSLIDER2} />
                 </Box>
                 <Box sx={MUIStyle.sliderImgBox}>
-                    <Image height={1200} width={1200} src={HCTBANNERSLIDER3} />
+                    <Image height={1200} width={1200} alt="HCTBANNERSLIDER3" src={HCTBANNERSLIDER3} />
                 </Box>
                 <Box sx={MUIStyle.sliderImgBox}>
-                    <Image height={1200} width={1200} src={HCTBANNERSLIDER4} />
+                    <Image height={1200} width={1200} alt="HCTBANNERSLIDER4" src={HCTBANNERSLIDER4} />
                 </Box>
             </Slider>
             <Box sx={MUIStyle.sliderCountBox}>
