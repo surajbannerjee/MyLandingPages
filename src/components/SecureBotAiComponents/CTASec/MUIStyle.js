@@ -6,6 +6,7 @@ import zIndex from "@mui/material/styles/zIndex";
 
 export const MUIStyle = {
     CTASecMain: {
+        overflowX: "hidden",
         padding: "80px 0",
     },
     CTASecInnerBox: {

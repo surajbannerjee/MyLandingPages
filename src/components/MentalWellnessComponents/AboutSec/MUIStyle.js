@@ -4,6 +4,7 @@ import { MWABOUTSEC } from "@/values/Constants/ImageConstants";
 
 export const MUIStyle = {
     AboutSec: {
+        overflowX: "hidden",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

@@ -5,6 +5,7 @@ import zIndex from "@mui/material/styles/zIndex";
 
 export const MUIStyle = {
     OurServiceMain: {
+        overflowX: "hidden",
         background: `url(${KEYBG})`,
         backgroundSize: "cover",
         backgroundPosition: "center",

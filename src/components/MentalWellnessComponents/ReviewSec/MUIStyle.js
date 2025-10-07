@@ -4,6 +4,7 @@ import { MWREVIEWSSECBG, HEADINGIMG } from "@/values/Constants/ImageConstants";
 
 export const MUIStyle = {
     ReviewSec: {
+        overflowX: "hidden",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

@@ -6,6 +6,12 @@
     transform: scaleY(1) scaleX(1.9);
     transition: all 1s ease;
   }
+  .bannerSlider .slick-slide.slick-center > div > .BannerSliderImg > img {
+    /* This is the center slide */
+    /* Transforms the center slide to be bigger than the rest of the slides */
+    transform: scale(1.3);
+    transition: all 1s ease;
+  }
 
   .bannerSlider .slick-slide.slick-active:has(+ .slick-center) > div {
     /* This the exact left slide of center */
@@ -27,7 +33,7 @@
     > div
     > .BannerSliderImg
     > img {
-    object-fit: fill !important;
+    object-fit: cover !important;
   }
 
   .bannerSlider .slick-slide:not(.slick-active, .slick-center) > div {

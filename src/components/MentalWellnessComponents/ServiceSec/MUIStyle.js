@@ -4,6 +4,7 @@ import { MWSERVICEBG, HEADINGIMG } from "@/values/Constants/ImageConstants";
 
 export const MUIStyle = {
     ServiceSec: {
+        overflowX: "hidden",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

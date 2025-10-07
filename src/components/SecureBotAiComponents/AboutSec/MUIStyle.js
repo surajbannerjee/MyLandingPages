@@ -6,6 +6,7 @@ import zIndex from "@mui/material/styles/zIndex";
 
 export const MUIStyle = {
     AboutSecMain: {
+        overflowX: "hidden",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

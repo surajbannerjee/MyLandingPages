@@ -1,9 +1,6 @@
 import { commonColor } from "@/values/Colors/CommonColor";
 import { FONT_SIZE, FONT_WEIGHT } from "@/values/Constants/FontConstants";
 import { FOOTERBG } from "@/values/Constants/ImageConstants";
-import { commonStyle } from "@/values/Styles/CommonStyle";
-import { BorderBottom } from "@mui/icons-material";
-import zIndex from "@mui/material/styles/zIndex";
 
 export const MUIStyle = {
     HeaderMain: {
@@ -23,10 +20,6 @@ export const MUIStyle = {
     HeaderInner: {
         display: "flex",
         justifyContent: "space-between",
-        // flexDirection: {
-        //     xs: "column",
-        //     sm: "row",
-        // },
         alignItems: "center",
         width: "100%",
         padding: "10px 0",
@@ -116,6 +109,11 @@ export const MUIStyle = {
         transition: "all 0.5s",
         background: commonColor.Trans,
         top: "0",
+        right: {
+            xs: "0",
+            sm: "0",
+            lg: "auto",
+        },
         width: "100%",
         height: {
             xs: "100vh",

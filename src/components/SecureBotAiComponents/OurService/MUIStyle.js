@@ -4,6 +4,7 @@ import { OURSERVICEBG } from "@/values/Constants/ImageConstants";
 
 export const MUIStyle = {
     OurServiceMain: {
+        overflowX: "hidden",
         background: `url(${OURSERVICEBG})`,
         backgroundSize: "cover",
         backgroundPosition: "center",

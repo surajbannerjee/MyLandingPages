@@ -4,6 +4,7 @@ import { MWFACILITYSEC, HEADINGIMG } from "@/values/Constants/ImageConstants";
 
 export const MUIStyle = {
     FacilitySec: {
+        overflowX: "hidden",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
