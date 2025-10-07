@@ -92,7 +92,7 @@ export const FUELMEMORIESWEBSITESS = URL('/images/fuelMemoriesImages/FuelMemorie
 export const ORIONPERFORMANCEWEBSITESS = URL('/images/orionPerformanceImages/OrionPerformanceWebsiteSS.png');
 
 // MentalWellness Images
-export const MWLOGO = URL('/images/MentalWellnessImages/SiteLogoHeader.png');
+export const MWLOGO = URL('/images/MentalWellnessImages/SiteLogoNew.png');
 export const MWLOGOFooter = URL('/images/MentalWellnessImages/SiteLogo.png');
 export const MWBANNERBG = URL('/images/MentalWellnessImages/BannerBG.png');
 export const MWARROWWAVE = URL('/images/MentalWellnessImages/arrowWave.png');
