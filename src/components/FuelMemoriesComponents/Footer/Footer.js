@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Footer() {
     return (
@@ -7,39 +8,39 @@ export default function Footer() {
                 <div className="footer-innersec">
                     <div className="footerflex-innersec">
                         <motion.div
-                         initial={{ x: 500, opacity: 0 }}
-                         whileInView={{ x: 0, opacity: 1 }}
-                         transition={{
-                             duration: 1.2,
-                         }}
-                        className="footer-inrcardscmn">
+                            initial={{ x: 500, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{
+                                duration: 1.2,
+                            }}
+                            className="footer-inrcardscmn">
                             <div className="first-footer-logo-sec">
-                                <a href=""><img src="/images/fuelMemoriesImages/header-logo.png" alt="" /></a>
+                                <a href=""><Image height={500} width={500} src="/images/fuelMemoriesImages/header-logo.png" alt="" /></a>
                                 <div className="footer-maps-imgsec">
-                                    <img src="/images/fuelMemoriesImages/footer-maps-img.png" alt="" />
+                                    <Image height={500} width={500} src="/images/fuelMemoriesImages/footer-maps-img.png" alt="" />
                                 </div>
                             </div>
                         </motion.div>
-                        <motion.div 
-                          initial={{ x: 400, opacity: 0 }}
-                          whileInView={{ x: 0, opacity: 1 }}
-                          transition={{
-                              duration: 1.2,
-                          }}
-                        className="footer-inrcardscmn">
+                        <motion.div
+                            initial={{ x: 400, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{
+                                duration: 1.2,
+                            }}
+                            className="footer-inrcardscmn">
                             <div className="footer-contact-us-sec">
                                 <h2 className="footer-cmn-heading-one">Contact</h2>
-                                <a href="tel:123-234-123400"><img src="/images/fuelMemoriesImages/footer-call-icon.png" alt="" />+123 - 234 - 123400</a>
-                                <a href="mailto:hello@awesome.com"><img src="/images/fuelMemoriesImages/footer-mail-icon.png" alt="" />hello@awesome.com</a>
+                                <a href="tel:123-234-123400"><Image height={20} width={20} src="/images/fuelMemoriesImages/footer-call-icon.png" alt="" />+123 - 234 - 123400</a>
+                                <a href="mailto:hello@awesome.com"><Image height={20} width={20} src="/images/fuelMemoriesImages/footer-mail-icon.png" alt="" />hello@awesome.com</a>
                             </div>
                         </motion.div>
                         <motion.div
-                          initial={{ x: 300, opacity: 0 }}
-                          whileInView={{ x: 0, opacity: 1 }}
-                          transition={{
-                              duration: 1.2,
-                          }}
-                         className="footer-inrcardscmn">
+                            initial={{ x: 300, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{
+                                duration: 1.2,
+                            }}
+                            className="footer-inrcardscmn">
                             <div className="footer-cmn-links-sec">
                                 <h2 className="footer-cmn-heading-one">Company</h2>
                                 <ul>
@@ -50,13 +51,13 @@ export default function Footer() {
                                 </ul>
                             </div>
                         </motion.div>
-                        <motion.div 
-                          initial={{ x: 200, opacity: 0 }}
-                          whileInView={{ x: 0, opacity: 1 }}
-                          transition={{
-                              duration: 1.2,
-                          }}
-                        className="footer-inrcardscmn">
+                        <motion.div
+                            initial={{ x: 200, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{
+                                duration: 1.2,
+                            }}
+                            className="footer-inrcardscmn">
                             <div className="footer-cmn-links-sec">
                                 <h2 className="footer-cmn-heading-one">Support</h2>
                                 <ul>
@@ -67,12 +68,12 @@ export default function Footer() {
                             </div>
                         </motion.div>
                         <motion.div
-                          initial={{ x: 100, opacity: 0 }}
-                          whileInView={{ x: 0, opacity: 1 }}
-                          transition={{
-                              duration: 1.2,
-                          }}
-                        className="footer-inrcardscmn">
+                            initial={{ x: 100, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            transition={{
+                                duration: 1.2,
+                            }}
+                            className="footer-inrcardscmn">
                             <div className="footer-cmn-links-sec">
                                 <h2 className="footer-cmn-heading-one">Community</h2>
                                 <ul>
@@ -88,12 +89,12 @@ export default function Footer() {
             </div>
             <div className="footer-copyright-sec">
                 <motion.div
-                  initial={{ x: -200, opacity: 0 }}
-                  whileInView={{ x: 0, opacity: 1 }}
-                  transition={{
-                      duration: 1,
-                  }}
-                className="container">
+                    initial={{ x: -200, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{
+                        duration: 1,
+                    }}
+                    className="container">
                     <div className="footer-copyrightinr">
                         <div className="row">
                             <div className="col-lg-8 col-md-7 col-sm-12">
@@ -103,10 +104,10 @@ export default function Footer() {
                             </div>
                             <div className="col-lg-4 col-md-5 col-sm-12">
                                 <div className="right-paypal-cards-linkfooter">
-                                    <a href=""><img src="/images/fuelMemoriesImages/paypal-btn-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/fuelMemoriesImages/mastercard-btn-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/fuelMemoriesImages/visa-btn-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/fuelMemoriesImages/american-expresss-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/paypal-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/mastercard-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/visa-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/american-expresss-btn-icon.png" alt="" /></a>
                                 </div>
                             </div>
                         </div>
@@ -114,12 +115,12 @@ export default function Footer() {
                 </motion.div>
             </div>
             <motion.button
-              initial={{ x: 200, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{
-                  duration: 1,
-              }}
-            className="scrool-to-top-btn"><img src="/images/fuelMemoriesImages/top-arrow-icon.png" alt="" /></motion.button>
+                initial={{ x: 200, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{
+                    duration: 1,
+                }}
+                className="scrool-to-top-btn"><Image height={100} width={100} src="/images/fuelMemoriesImages/top-arrow-icon.png" alt="" /></motion.button>
         </footer>
     )
 }

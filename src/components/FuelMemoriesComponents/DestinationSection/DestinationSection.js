@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function DestinationSection() {
     return (
@@ -6,13 +7,13 @@ export default function DestinationSection() {
             <div className="container">
                 <div className="discover-destination-inrsec">
                     <div className="discover-headinginr">
-                    <motion.div
+                        <motion.div
                             initial={{ x: 100, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{
                                 duration: 1,
                             }}>
-                        <h2>Discover Our Destination</h2>
+                            <h2>Discover Our Destination</h2>
                         </motion.div>
                     </div>
                     <div className="discover-destination-explore-inr">
@@ -20,13 +21,13 @@ export default function DestinationSection() {
                             <div className="col-lg-8 col-md-8 col-sm-12">
                                 <div className="left-walking-explore-sec">
                                     <h3>Walking Explore in Soematra Forest</h3>
-                                    <div className="rating-google-discoverhome">Rating on google <img src="/images/fuelMemoriesImages/rating-icon.png" alt="" /><b>(36)</b></div>
+                                    <div className="rating-google-discoverhome">Rating on google <Image height={20} width={20} src="/images/fuelMemoriesImages/rating-icon.png" alt="" /><b>(36)</b></div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-4 col-sm-12">
                                 <div className="right-save-share-destination">
-                                    <a href="" className="share-btn-discovehome"><img src="/images/fuelMemoriesImages/share-btn-icon.png" alt="" /></a>
-                                    <a href="" className="save-btn-discove-home"><img src="/images/fuelMemoriesImages/like-heart-btn-icon.png" alt="" />save</a>
+                                    <a href="" className="share-btn-discovehome"><Image height={20} width={20} src="/images/fuelMemoriesImages/share-btn-icon.png" alt="" /></a>
+                                    <a href="" className="save-btn-discove-home"><Image height={20} width={20} src="/images/fuelMemoriesImages/like-heart-btn-icon.png" alt="" />save</a>
                                 </div>
                             </div>
                         </div>
@@ -34,50 +35,50 @@ export default function DestinationSection() {
                     <div className="walking-explore-img-col-inr">
                         <div className="row">
                             <div className="col-lg-6 col-md-7 col-sm-12">
-                                <motion.div 
-                                initial={{ x: 100, opacity: 0 }}
-                                whileInView={{ x: 0, opacity: 1 }}
-                                transition={{
-                                    duration: 1,
-                                }}
-                                className="leftcol-explore-gallery-img">
-                                    <figure><img src="/images/fuelMemoriesImages/discover-explore-gallery-img1.png" alt="" /></figure>
+                                <motion.div
+                                    initial={{ x: 100, opacity: 0 }}
+                                    whileInView={{ x: 0, opacity: 1 }}
+                                    transition={{
+                                        duration: 1,
+                                    }}
+                                    className="leftcol-explore-gallery-img">
+                                    <figure><Image src="/images/fuelMemoriesImages/discover-explore-gallery-img1.png" alt="" height={500} width={500} /></figure>
                                 </motion.div>
                             </div>
                             <div className="col-lg-6 col-md-5 col-sm-12">
                                 <div className="rightcol-explore-gallery-img">
                                     <div className="row">
                                         <div className="col-lg-12 col-md-12 col-sm-12">
-                                            <motion.div 
-                                            initial={{ y: -100, opacity: 0 }}
-                                            whileInView={{ y: 0, opacity: 1 }}
-                                            transition={{
-                                                duration: 1,
-                                            }}
-                                            className="rightcol-explore-gallery-inside">
-                                                <figure><img src="/images/fuelMemoriesImages/discover-explore-gallery-img2.png" alt="" /></figure>
-                                            </motion.div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12">
-                                            <motion.div 
-                                            initial={{ x: -100, opacity: 0 }}
-                                            whileInView={{ x: 0, opacity: 1 }}
-                                            transition={{
-                                                duration: 1,
-                                            }}
-                                            className="rightcol-explore-gallery-inside">
-                                                <figure><img src="/images/fuelMemoriesImages/discover-explore-gallery-img3.png" alt="" /></figure>
+                                            <motion.div
+                                                initial={{ y: -100, opacity: 0 }}
+                                                whileInView={{ y: 0, opacity: 1 }}
+                                                transition={{
+                                                    duration: 1,
+                                                }}
+                                                className="rightcol-explore-gallery-inside">
+                                                <figure><Image src="/images/fuelMemoriesImages/discover-explore-gallery-img2.png" alt="" height={500} width={500} /></figure>
                                             </motion.div>
                                         </div>
                                         <div className="col-lg-6 col-md-12 col-sm-12">
                                             <motion.div
-                                            initial={{ x: 100, opacity: 0 }}
-                                            whileInView={{ x: 0, opacity: 1 }}
-                                            transition={{
-                                                duration: 1,
-                                            }}
-                                            className="rightcol-explore-gallery-inside">
-                                                <figure><img src="/images/fuelMemoriesImages/discover-explore-gallery-img4.png" alt="" /></figure>
+                                                initial={{ x: -100, opacity: 0 }}
+                                                whileInView={{ x: 0, opacity: 1 }}
+                                                transition={{
+                                                    duration: 1,
+                                                }}
+                                                className="rightcol-explore-gallery-inside">
+                                                <figure><Image src="/images/fuelMemoriesImages/discover-explore-gallery-img3.png" alt="" height={500} width={500} /></figure>
+                                            </motion.div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-12 col-sm-12">
+                                            <motion.div
+                                                initial={{ x: 100, opacity: 0 }}
+                                                whileInView={{ x: 0, opacity: 1 }}
+                                                transition={{
+                                                    duration: 1,
+                                                }}
+                                                className="rightcol-explore-gallery-inside">
+                                                <figure><Image src="/images/fuelMemoriesImages/discover-explore-gallery-img4.png" alt="" height={500} width={500} /></figure>
                                                 <button className="see-all-exploresbtn">See all</button>
                                             </motion.div>
                                         </div>
@@ -92,26 +93,26 @@ export default function DestinationSection() {
                                 <div className="walking-tour-tab-sec-main">
                                     <div className="tab-menu-li">
                                         <ul>
-                                            <motion.li 
-                                             initial={{ x: -100, opacity: 0 }}
-                                             whileInView={{ x: 0, opacity: 1 }}
-                                             transition={{
-                                                 duration: 1,
-                                             }}
+                                            <motion.li
+                                                initial={{ x: -100, opacity: 0 }}
+                                                whileInView={{ x: 0, opacity: 1 }}
+                                                transition={{
+                                                    duration: 1,
+                                                }}
                                             ><a className="tab__linkbtn active__tablinkbtn" data-id="tab1Content">About</a></motion.li>
                                             <motion.li
-                                             initial={{ x: -200, opacity: 0 }}
-                                             whileInView={{ x: 0, opacity: 1 }}
-                                             transition={{
-                                                 duration: 1,
-                                             }}
+                                                initial={{ x: -200, opacity: 0 }}
+                                                whileInView={{ x: 0, opacity: 1 }}
+                                                transition={{
+                                                    duration: 1,
+                                                }}
                                             ><a className="tab__linkbtn" data-id="tab2Content">Itinerary</a></motion.li>
                                             <motion.li
-                                             initial={{ x: -300, opacity: 0 }}
-                                             whileInView={{ x: 0, opacity: 1 }}
-                                             transition={{
-                                                 duration: 1,
-                                             }}
+                                                initial={{ x: -300, opacity: 0 }}
+                                                whileInView={{ x: 0, opacity: 1 }}
+                                                transition={{
+                                                    duration: 1,
+                                                }}
                                             ><a className="tab__linkbtn" data-id="tab3Content">Tour Detail</a></motion.li>
                                         </ul>
                                     </div>
@@ -173,12 +174,12 @@ export default function DestinationSection() {
                             <div className="col-lg-5 col-md-5 col-sm-12">
                                 <div className="book-adventure-sec-right">
                                     <motion.div
-                                     initial={{ y: -100, opacity: 0 }}
-                                     whileInView={{ y: 0, opacity: 1 }}
-                                     transition={{
-                                         duration: 1,
-                                     }}
-                                    className="sale-sec-tags-adventure">top <br />seller</motion.div>
+                                        initial={{ y: -100, opacity: 0 }}
+                                        whileInView={{ y: 0, opacity: 1 }}
+                                        transition={{
+                                            duration: 1,
+                                        }}
+                                        className="sale-sec-tags-adventure">top <br />seller</motion.div>
                                     <h2>Book This Adventure <b>4 days</b></h2>
                                     <div className="adventure-dalmore-sometra-sec">
                                         <ul>
@@ -197,9 +198,9 @@ export default function DestinationSection() {
                                     </div>
                                     <div className="last-book-adven-btnsec">
                                         <a
-                                        href="" className="book-now-btn-adven">Book now</a>
+                                            href="" className="book-now-btn-adven">Book now</a>
                                         <a
-                                        href="" className="contact-enquairy-btn-adven">Contact for Enquairy</a>
+                                            href="" className="contact-enquairy-btn-adven">Contact for Enquairy</a>
                                     </div>
                                 </div>
                             </div>

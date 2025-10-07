@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function OurServicesSection() {
     return (
@@ -32,7 +33,7 @@ export default function OurServicesSection() {
                                 className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="all-cmn-cards-inside-sec-services">
                                     <div className="services-insidedetails-txt">
-                                        <figure><img src="/images/orionPerformanceImages/services-cards-img1.png" alt="" /></figure>
+                                        <figure><Image height={500} width={500} src="/images/orionPerformanceImages/services-cards-img1.png" alt="" /></figure>
                                         <div className="service-coach-training-inr">
                                             <a href=""><h3>Online Coaching</h3></a>
                                         </div>
@@ -48,7 +49,7 @@ export default function OurServicesSection() {
                                 className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="all-cmn-cards-inside-sec-services">
                                     <div className="services-insidedetails-txt">
-                                        <figure><img src="/images/orionPerformanceImages/services-cards-img2.png" alt="" /></figure>
+                                        <figure><Image height={500} width={500} src="/images/orionPerformanceImages/services-cards-img2.png" alt="" /></figure>
                                         <div className="service-coach-training-inr">
                                             <a href=""><h3>Personal training</h3></a>
                                         </div>

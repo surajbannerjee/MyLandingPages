@@ -1,6 +1,7 @@
 
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 export default function NewsLetterJourney() {
     return (
         <section className="newsletter-journey-main-sec">
@@ -19,11 +20,11 @@ export default function NewsLetterJourney() {
                                 <div className="social-icon-sec-journey">
 
                                     <a
-                                        href=""><img src="/images/fuelMemoriesImages/facebook-icon1.png" alt="" /></a>
+                                        href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/facebook-icon1.png" alt="" /></a>
                                     <a
-                                        href=""><img src="/images/fuelMemoriesImages/twitter-icon1.png" alt="" /></a>
+                                        href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/twitter-icon1.png" alt="" /></a>
                                     <a
-                                        href=""><img src="/images/fuelMemoriesImages/youtube-icon1.png" alt="" /></a>
+                                        href=""><Image height={100} width={100} src="/images/fuelMemoriesImages/youtube-icon1.png" alt="" /></a>
                                 </div>
                             </div>
                         </motion.div>

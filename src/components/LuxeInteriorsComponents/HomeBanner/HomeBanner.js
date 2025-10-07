@@ -1,9 +1,10 @@
+import Image from "next/image";
 
 export default function HomeBanner() {
     return (
         <section className="homepage-banner-main-sec">
             <div className="bnr-sec-home">
-                <img src="/images/luxeInteriorsImages/homebnr-img1.png" alt="" />
+                <Image height={500} width={800} src="/images/luxeInteriorsImages/homebnr-img1.png" alt="" />
             </div>
             <div className="container">
                 <div className="homepage-bnr-inrsec">
@@ -13,7 +14,7 @@ export default function HomeBanner() {
                             <p>Discover unique and stylish decor pieces to elevate your home.</p>
                             <div className="cmn-homebnr-btn-sec">
                                 <a href="#" className="cmn-homebnr-btn-one">Shop Now</a>
-                                <a href="#" className="cmn-homebnr-btn-two">Explore Collections<img src="/images/luxeInteriorsImages/right-arrow-icon.png" alt="" /></a>
+                                <a href="#" className="cmn-homebnr-btn-two">Explore Collections<Image height={24} width={24} src="/images/luxeInteriorsImages/right-arrow-icon.png" alt="" /></a>
                             </div>
                         </div>
                     </div>

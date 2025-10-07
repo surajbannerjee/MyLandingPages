@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function HomeBanner() {
     return (
         <section className="homapage-banner-main-sec">
             <div className="bnr-sec-img-home">
-                <img src="/images/orionPerformanceImages/homebnr-bg-img1.png" alt="" />
+                <Image height={500} width={500} src="/images/orionPerformanceImages/homebnr-bg-img1.png" alt="" />
             </div>
             <div className="container">
                 <div className="homebnr-inr-sec">
@@ -25,9 +26,9 @@ export default function HomeBanner() {
                                         duration: 0.5,
                                     }}
                                 >
-                                    <a href="#scrollBottom"><img src="/images/orionPerformanceImages/down-arrow-scroll.png" alt="" /></a>
-                                    <a href="#scrollBottom"><img src="/images/orionPerformanceImages/down-arrow-scroll.png" alt="" /></a>
-                                    <a href="#scrollBottom"><img src="/images/orionPerformanceImages/down-arrow-scroll.png" alt="" /></a>
+                                    <a href="#scrollBottom"><Image height={24} width={24} src="/images/orionPerformanceImages/down-arrow-scroll.png" alt="" /></a>
+                                    <a href="#scrollBottom"><Image height={24} width={24} src="/images/orionPerformanceImages/down-arrow-scroll.png" alt="" /></a>
+                                    <a href="#scrollBottom"><Image height={24} width={24} src="/images/orionPerformanceImages/down-arrow-scroll.png" alt="" /></a>
                                     Full <strong>Potential</strong></motion.h2>
                                 <motion.p
                                     initial={{ y: -100, opacity: 0 }}

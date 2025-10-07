@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomeDecorCategories() {
     return (
 
@@ -21,7 +23,7 @@ export default function HomeDecorCategories() {
                                         <a href="#">Shop Living Room</a>
                                     </div>
                                     <div className="right-img-roomsinr">
-                                        <img src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
+                                        <Image height={500} width={800} src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +35,7 @@ export default function HomeDecorCategories() {
                                         <a href="#">Shop Bedroom</a>
                                     </div>
                                     <div className="right-img-roomsinr">
-                                        <img src="/images/luxeInteriorsImages/rooms-design-img2.png" alt="" />
+                                        <Image height={500} width={800} src="/images/luxeInteriorsImages/rooms-design-img2.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +47,7 @@ export default function HomeDecorCategories() {
                                         <a href="#">Shop Dining Room</a>
                                     </div>
                                     <div className="right-img-roomsinr">
-                                        <img src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
+                                        <Image height={500} width={800} src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +59,7 @@ export default function HomeDecorCategories() {
                                         <a href="#">Shop Bedroom</a>
                                     </div>
                                     <div className="right-img-roomsinr">
-                                        <img src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
+                                        <Image height={500} width={800} src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +71,7 @@ export default function HomeDecorCategories() {
                                         <a href="#">Shop Dining Room</a>
                                     </div>
                                     <div className="right-img-roomsinr">
-                                        <img src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
+                                        <Image height={500} width={800} src="/images/luxeInteriorsImages/rooms-design-img1.png" alt="" />
                                     </div>
                                 </div>
                             </div>

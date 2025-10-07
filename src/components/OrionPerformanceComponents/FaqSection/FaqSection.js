@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function FaqSection() {
     return (
@@ -32,7 +33,7 @@ export default function FaqSection() {
                                     <div className="accoridian-items-home-faq">
                                         <button aria-expanded="true">
                                             <h3>What training services are available at Orion Performance Coaching?</h3>
-                                            <span><img src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
+                                            <span><Image height={24} width={24} src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
                                         </button>
                                         <div className="accoridian-content-home-faq">
                                             <p>OPC offers personalized one-on-one training in Adelaide and tailored online coaching programs. Clients also get exclusive access to our custom OPC app to enhance their training and nutrition plans.</p>
@@ -41,7 +42,7 @@ export default function FaqSection() {
                                     <div className="accoridian-items-home-faq">
                                         <button aria-expanded="false">
                                             <h3>What qualifications do OPC coaches have?</h3>
-                                            <span><img src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
+                                            <span><Image height={24} width={24} src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
                                         </button>
                                         <div className="accoridian-content-home-faq">
                                             <p>OPC offers personalized one-on-one training in Adelaide and tailored online coaching programs. Clients also get exclusive access to our custom OPC app to enhance their training and nutrition plans.</p>
@@ -50,7 +51,7 @@ export default function FaqSection() {
                                     <div className="accoridian-items-home-faq">
                                         <button aria-expanded="false">
                                             <h3>How can I start with Orion Performance Coaching?</h3>
-                                            <span><img src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
+                                            <span><Image height={24} width={24} src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
                                         </button>
                                         <div className="accoridian-content-home-faq">
                                             <p>OPC offers personalized one-on-one training in Adelaide and tailored online coaching programs. Clients also get exclusive access to our custom OPC app to enhance their training and nutrition plans.</p>
@@ -59,7 +60,7 @@ export default function FaqSection() {
                                     <div className="accoridian-items-home-faq">
                                         <button aria-expanded="false">
                                             <h3>What are the pricing options for OPCs services?</h3>
-                                            <span><img src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
+                                            <span><Image height={24} width={24} src="/images/orionPerformanceImages/faq-arrow-icon1.png" alt="" /></span>
                                         </button>
                                         <div className="accoridian-content-home-faq">
                                             <p>OPC offers personalized one-on-one training in Adelaide and tailored online coaching programs. Clients also get exclusive access to our custom OPC app to enhance their training and nutrition plans.</p>
@@ -75,7 +76,7 @@ export default function FaqSection() {
                                 }}
                             >
                                 <div className="right-faq-anyquestion-inr">
-                                    <span className="img-faqquestion-icons"><img src="/images/orionPerformanceImages/questions-faq-img1.png" alt="" /></span>
+                                    <span className="img-faqquestion-icons"><Image height={24} width={24} src="/images/orionPerformanceImages/questions-faq-img1.png" alt="" /></span>
                                     <h4>Do You have any question?</h4>
                                     <p>If you need more information feel free to reach out. Were here to help you every step of the way!</p>
                                     <a className="cmn-apply-now-btn-getstarted">Ask a Question</a>

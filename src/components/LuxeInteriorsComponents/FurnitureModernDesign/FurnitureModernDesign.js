@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FurnitureModernDesign() {
     return (
         <section className="furniture-exclusiveoffer-main-sec">
@@ -6,7 +8,7 @@ export default function FurnitureModernDesign() {
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="cards-furniture-offer-sec-inr">
                             <div className="bnr-img-cards-furniture">
-                                <img src="/images/luxeInteriorsImages/deals-banner-img1.png" alt="" />
+                                <Image height={500} width={800} src="/images/luxeInteriorsImages/deals-banner-img1.png" alt="" />
                             </div>
                             <div className="cards-first-inr-furniture">
                                 <h2>EXCLUSIVE <strong>FURNITURES</strong></h2>
@@ -18,7 +20,7 @@ export default function FurnitureModernDesign() {
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="cards-furniture-offer-sec-inr">
                             <div className="bnr-img-cards-furniture">
-                                <img src="/images/luxeInteriorsImages/deals-banner-img2.png" alt="" />
+                                <Image height={500} width={800} src="/images/luxeInteriorsImages/deals-banner-img2.png" alt="" />
                             </div>
                             <div className="even-cards-modern-furniture">
                                 <h2>Modern <strong>Design</strong></h2>

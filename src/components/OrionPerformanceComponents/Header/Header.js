@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Header() {
     return (
@@ -7,7 +8,7 @@ export default function Header() {
             <div className="container">
                 <div className="header-adventure-inr">
                     <div className="logo-sec-header">
-                        <Link href="#"><img src="/images/orionPerformanceImages/header-logo.png" alt="" /></Link>
+                        <Link href="#"><Image height={500} width={500} src="/images/orionPerformanceImages/header-logo.png" alt="" /></Link>
                     </div>
                     <div className="header-navbar-inrsec">
                         <ul>
@@ -41,12 +42,12 @@ export default function Header() {
                                 duration: 0.1,
                             }}
                         >Apply Now</motion.a>
-                        <button className="open__nav__btn" ><img src="/images/orionPerformanceImages/open-menu-icon1.png" alt="" /></button>
-                        <button className="close__btn__navbar" ><img src="/images/orionPerformanceImages/close-icon-nav.png" alt="" /></button>
+                        <button className="open__nav__btn" ><Image height={24} width={24} src="/images/orionPerformanceImages/open-menu-icon1.png" alt="" /></button>
+                        <button className="close__btn__navbar" ><Image height={24} width={24} src="/images/orionPerformanceImages/close-icon-nav.png" alt="" /></button>
                     </div>
                 </div>
             </div>
-            <button className="scrool-to-top-btn active__scrolltopbtn"><img src="/images/orionPerformanceImages/top-arrow-icon.png" alt="" /></button>
+            <button className="scrool-to-top-btn active__scrolltopbtn"><Image height={24} width={24} src="/images/orionPerformanceImages/top-arrow-icon.png" alt="" /></button>
         </header>
     );
 }

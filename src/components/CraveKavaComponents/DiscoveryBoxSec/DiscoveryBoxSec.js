@@ -1,21 +1,22 @@
 import { CAVA_REFRESH_CARDS_IMG1, CAVA_REFRESH_CARDS_IMG2, DISCO_CRAVE_CARDS_IMG1, DISCO_CRAVE_CARDS_IMG2 } from '@/values/Constants/ImageConstants';
+import Image from 'next/image';
 
 
 export default function DiscoveryBoxSec() {
-    const products1 = [
-        {
-          img: DISCO_CRAVE_CARDS_IMG1,
-          text: "Energize Kava Boost",
-        },
-        {
-          img: DISCO_CRAVE_CARDS_IMG2,
-          text: "Calm Kava Serenity",
-        },
-        {
-          img: DISCO_CRAVE_CARDS_IMG1,
-          text: "Focus Kava Clarity",
-        },
-      ];
+  const products1 = [
+    {
+      img: DISCO_CRAVE_CARDS_IMG1,
+      text: "Energize Kava Boost",
+    },
+    {
+      img: DISCO_CRAVE_CARDS_IMG2,
+      text: "Calm Kava Serenity",
+    },
+    {
+      img: DISCO_CRAVE_CARDS_IMG1,
+      text: "Focus Kava Clarity",
+    },
+  ];
   return (
     <section className="discover-crave-main-sec" id="products">
       <div className="container">
@@ -37,7 +38,7 @@ export default function DiscoveryBoxSec() {
                 <div key={index} className="col-lg-4 col-md-6 col-sm-12">
                   <div className="cmn-cards-disco-crave">
                     <figure>
-                      <img src={item.img} alt="Energize Kava Boost" />
+                      <Image height={1000} width={2000} src={item.img} alt="Energize Kava Boost" />
                     </figure>
                     <h3>{item.text}</h3>
                   </div>
@@ -51,7 +52,7 @@ export default function DiscoveryBoxSec() {
           <div className="row">
             {[
               {
-              
+
                 img: CAVA_REFRESH_CARDS_IMG1,
                 text: "Revive Kava Refresh",
               },
@@ -63,7 +64,7 @@ export default function DiscoveryBoxSec() {
               <div key={index} className="col-lg-6 col-md-6 col-sm-12">
                 <div className="cmn-cards-cava-refresh-crave">
                   <figure>
-                    <img src={item.img} alt="Revive Kava Refresh" />
+                    <Image height={1000} width={2000} src={item.img} alt="Revive Kava Refresh" />
                   </figure>
                   <h3>{item.text}</h3>
                 </div>

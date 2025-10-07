@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function OrionHanburySection() {
     return (
@@ -14,7 +15,7 @@ export default function OrionHanburySection() {
                             }}
                             className="col-lg-5 col-md-5 col-sm-12" >
                             <div className="left-orion-inrimg">
-                                <img src="/images/orionPerformanceImages/left-orion-inr-img1.png" alt="" />
+                                <Image height={500} width={500} src="/images/orionPerformanceImages/left-orion-inr-img1.png" alt="" />
                             </div>
                         </motion.div>
                         <motion.div
@@ -26,8 +27,8 @@ export default function OrionHanburySection() {
                             className="col-lg-7 col-md-7 col-sm-12">
                             <div className="right-sec-hanbury-inr">
                                 <div className="right-arrow-animate">
-                                    <img src="/images/orionPerformanceImages/right-arrow-animate1.png" alt="" />
-                                    <img src="/images/orionPerformanceImages/right-arrow-animate2.png" alt="" />
+                                    <Image height={500} width={500} src="/images/orionPerformanceImages/right-arrow-animate1.png" alt="" />
+                                    <Image height={500} width={500} src="/images/orionPerformanceImages/right-arrow-animate2.png" alt="" />
                                 </div>
                                 <h2>Meet Orion Hanbury: The Visionary Behind OPC</h2>
                                 <p>Orion Hanbury is a standout in fitness, holding the 2023 Mens Physique State title across two federations, 2x Junior State titles, and top placements nationally and internationally. His achievements underscore his exceptional standing in the field.</p>

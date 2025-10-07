@@ -1,4 +1,5 @@
 import { WHY_CHOOSE_INR_IMG1 } from '@/values/Constants/ImageConstants'
+import Image from 'next/image'
 
 
 export default function WhyUsSec() {
@@ -11,7 +12,7 @@ export default function WhyUsSec() {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="left-img-choose-signature">
-                  <img src={WHY_CHOOSE_INR_IMG1} alt="Why Choose" />
+                  <Image height={500} width={500} src={WHY_CHOOSE_INR_IMG1} alt="Why Choose" />
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
@@ -45,7 +46,7 @@ export default function WhyUsSec() {
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="left-img-choose-signature">
-                  <img src={WHY_CHOOSE_INR_IMG1} alt="Signature Shots" />
+                  <Image height={500} width={500} src={WHY_CHOOSE_INR_IMG1} alt="Signature Shots" />
                 </div>
               </div>
             </div>

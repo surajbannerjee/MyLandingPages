@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
@@ -14,7 +15,7 @@ export default function Footer() {
                             }}
                         >
                             <div className="footer-first-inside-cards-logo">
-                                <a href=""><img src="/images/orionPerformanceImages/footer-logo-icon.png" alt="" /></a>
+                                <a href=""><Image height={300} width={300} src="/images/orionPerformanceImages/footer-logo-icon.png" alt="" /></a>
                                 <p>Dedicated to transforming lives through personalized fitness and nutrition, empowering clients to reach their peak physical and mental potential.</p>
                             </div>
                         </motion.div>
@@ -72,15 +73,15 @@ export default function Footer() {
                                     </form>
                                 </div>
                                 <div className="footer-address-sec">
-                                    <a href="mailto:orion@orionperformancecoaching.com"><img src="/images/orionPerformanceImages/footer-email-icon.png" alt="" />orion@orionperformancecoaching.com</a>
-                                    <a href="tel:0408-284-862"><img src="/images/orionPerformanceImages/footer-call-icon.png" alt="" />0408-284-862</a>
-                                    <a href=""><img src="/images/orionPerformanceImages/footer-cus-spport-icon.png" alt="" />Customer Support | LIVE</a>
+                                    <a href="mailto:orion@orionperformancecoaching.com"><Image height={24} width={24} src="/images/orionPerformanceImages/footer-email-icon.png" alt="" />orion@orionperformancecoaching.com</a>
+                                    <a href="tel:0408-284-862"><Image height={24} width={24} src="/images/orionPerformanceImages/footer-call-icon.png" alt="" />0408-284-862</a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/footer-cus-spport-icon.png" alt="" />Customer Support | LIVE</a>
                                 </div>
                                 <div className="footer-social-iconsec">
-                                    <a href=""><img src="/images/orionPerformanceImages/footer-facebook-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/orionPerformanceImages/footer-insta-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/orionPerformanceImages/footer-twitter-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/orionPerformanceImages/footer-LinkedIn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/footer-facebook-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/footer-insta-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/footer-twitter-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/footer-LinkedIn-icon.png" alt="" /></a>
                                 </div>
                             </div>
                         </motion.div>
@@ -108,10 +109,10 @@ export default function Footer() {
                                 }}
                             >
                                 <div className="right-paypal-cards-linkfooter">
-                                    <a href=""><img src="/images/orionPerformanceImages/paypal-btn-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/orionPerformanceImages/mastercard-btn-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/orionPerformanceImages/visa-btn-icon.png" alt="" /></a>
-                                    <a href=""><img src="/images/orionPerformanceImages/american-expresss-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/paypal-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/mastercard-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/visa-btn-icon.png" alt="" /></a>
+                                    <a href=""><Image height={24} width={24} src="/images/orionPerformanceImages/american-expresss-btn-icon.png" alt="" /></a>
                                 </div>
                             </motion.div>
                         </div>

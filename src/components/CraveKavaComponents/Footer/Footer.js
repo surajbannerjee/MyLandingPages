@@ -1,4 +1,5 @@
 import { FACEBOOK_ICON_FOOTER, HEADER_LOGO_ICON, INSTAGRAM_ICON_FOOTER, LINKEDIN_ICON_FOOTER, TOP_ARROW_ICON, TWITTER_ICON_FOOTER } from "@/values/Constants/ImageConstants";
+import Image from "next/image";
 import { useEffect } from "react";
 
 
@@ -53,7 +54,7 @@ export default function Footer() {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="footer-cmn-cards-inr">
                 <div className="first-footer-logo-descript-inr">
-                  <a href="#"><img src={HEADER_LOGO_ICON} alt="" /></a>
+                  <a href="#"><Image height={500} width={500} src={HEADER_LOGO_ICON} alt="" /></a>
                   <p>
                     Experience the calm and clarity of our premium kava with kratom. Crafted for those
                     who seek balance in every sip
@@ -91,10 +92,10 @@ export default function Footer() {
               <div className="footer-cmn-cards-inr">
                 <h2 className="footer-cmn-heading-one">Stay Connect with Us</h2>
                 <div className="footer-social-iconinr">
-                  <a href="#"><img src={FACEBOOK_ICON_FOOTER} alt="" /></a>
-                  <a href="#"><img src={INSTAGRAM_ICON_FOOTER} alt="" /></a>
-                  <a href="#"><img src={TWITTER_ICON_FOOTER} alt="" /></a>
-                  <a href="#"><img src={LINKEDIN_ICON_FOOTER} alt="" /></a>
+                  <a href="#"><Image height={500} width={500} src={FACEBOOK_ICON_FOOTER} alt="" /></a>
+                  <a href="#"><Image height={500} width={500} src={INSTAGRAM_ICON_FOOTER} alt="" /></a>
+                  <a href="#"><Image height={500} width={500} src={TWITTER_ICON_FOOTER} alt="" /></a>
+                  <a href="#"><Image height={500} width={500} src={LINKEDIN_ICON_FOOTER} alt="" /></a>
                 </div>
               </div>
             </div>
@@ -114,7 +115,7 @@ export default function Footer() {
         </div>
       </div>
       {/* Scroll to top */}
-      <button className="scrool-to-top-btn"><img src={TOP_ARROW_ICON} alt="" /></button>
+      <button className="scrool-to-top-btn"><Image height={500} width={500} src={TOP_ARROW_ICON} alt="" /></button>
     </footer>
   )
 }

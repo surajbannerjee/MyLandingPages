@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function ComfortAndLuxary() {
     return (
         <section className="customer-comfort-luxury-mainsec">
             <div className="container">
                 <div className="comfort-luxury-inr">
                     <div className="bnr-img-comfort-luxury">
-                        <img src="/images/luxeInteriorsImages/comfort-bnr-img1.png" alt="" />
+                        <Image height={500} width={800} src="/images/luxeInteriorsImages/comfort-bnr-img1.png" alt="" />
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12">

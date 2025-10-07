@@ -1,5 +1,6 @@
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function CategorySection() {
     return (
@@ -24,33 +25,33 @@ export default function CategorySection() {
 
                         {/* ---cards */}
                         <div
- 
+
                             className="cards-inr-perfect-adventure">
-                            <motion.div 
-                             initial={{ y: -90, opacity: 0 }}
-                             whileInView={{ y: 0, opacity: 1 }}
-                             transition={{
-                                 duration: 1,
-                             }}
-                            className="first-cards-adventure-imginr">
+                            <motion.div
+                                initial={{ y: -90, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{
+                                    duration: 1,
+                                }}
+                                className="first-cards-adventure-imginr">
                                 <figure>
-                                    <img src="/images/fuelMemoriesImages/perfect-adven-cards-img1.png" alt="" />
+                                    <Image src="/images/fuelMemoriesImages/perfect-adven-cards-img1.png" alt="" height={500} width={500} />
                                 </figure>
                             </motion.div>
                             <div
-                            //  initial={{ y: 200, opacity: 0 }}
-                            //  whileInView={{ y: 0, opacity: 1 }}
-                            //  transition={{
-                            //      duration: 1
-                            //  }}
-                            className="last-cards-details-adventure-home">
+                                //  initial={{ y: 200, opacity: 0 }}
+                                //  whileInView={{ y: 0, opacity: 1 }}
+                                //  transition={{
+                                //      duration: 1
+                                //  }}
+                                className="last-cards-details-adventure-home">
                                 <div className="cards-middle-inr-adven">
                                     <div className="perfect-adven-btn-linksec">
                                         <div className="tagdes-adven-categroy">Moderate</div>
                                         <div className="tagdes-adven-categroy">Wild life</div>
                                     </div>
                                     <div className="cards-linkbtnmiddle">
-                                        <a href=""><img src="/images/fuelMemoriesImages/link-arrow-icon1.png" alt="" /></a>
+                                        <a href=""><Image height={500} width={500} src="/images/fuelMemoriesImages/link-arrow-icon1.png" alt="" /></a>
                                     </div>
                                 </div>
                                 <h3>Hiking</h3>
@@ -67,31 +68,31 @@ export default function CategorySection() {
                         {/* ----cards */}
                         <div className="cards-inr-perfect-adventure">
                             <motion.div
-                            initial={{ y: -150, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{
-                                duration: 1,
-                               
-                            }}
-                            className="first-cards-adventure-imginr">
+                                initial={{ y: -150, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{
+                                    duration: 1,
+
+                                }}
+                                className="first-cards-adventure-imginr">
                                 <figure>
-                                    <img src="/images/fuelMemoriesImages/perfect-adven-cards-img2.png" alt="" />
+                                    <Image height={500} width={500} src="/images/fuelMemoriesImages/perfect-adven-cards-img2.png" alt="" />
                                 </figure>
                             </motion.div>
                             <div
-                            //  initial={{ y: 200, opacity: 0 }}
-                            //  whileInView={{ y: 0, opacity: 1 }}
-                            //  transition={{
-                            //      duration: 1,delay:0.2
-                            //  }}
-                            className="last-cards-details-adventure-home">
+                                //  initial={{ y: 200, opacity: 0 }}
+                                //  whileInView={{ y: 0, opacity: 1 }}
+                                //  transition={{
+                                //      duration: 1,delay:0.2
+                                //  }}
+                                className="last-cards-details-adventure-home">
                                 <div className="cards-middle-inr-adven">
                                     <div className="perfect-adven-btn-linksec">
                                         <div className="tagdes-adven-categroy">High</div>
                                         <div className="tagdes-adven-categroy">River scenery</div>
                                     </div>
                                     <div className="cards-linkbtnmiddle">
-                                        <a href=""><img src="/images/fuelMemoriesImages/link-arrow-icon1.png" alt="" /></a>
+                                        <a href=""><Image height={500} width={500} src="/images/fuelMemoriesImages/link-arrow-icon1.png" alt="" /></a>
                                     </div>
                                 </div>
                                 <h3>Rafting Adventure</h3>
@@ -108,30 +109,30 @@ export default function CategorySection() {
                         {/* ----cards */}
                         <div className="cards-inr-perfect-adventure">
                             <motion.div
-                            initial={{ y: -200, opacity: 0 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            transition={{
-                                duration: 1 
-                            }}
-                            className="first-cards-adventure-imginr">
+                                initial={{ y: -200, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{
+                                    duration: 1
+                                }}
+                                className="first-cards-adventure-imginr">
                                 <figure>
-                                    <img src="/images/fuelMemoriesImages/perfect-adven-cards-img3.png" alt="" />
+                                    <Image height={500} width={500} src="/images/fuelMemoriesImages/perfect-adven-cards-img3.png" alt="" />
                                 </figure>
                             </motion.div>
                             <div
-                            //   initial={{ y: 200, opacity: 0 }}
-                            //   whileInView={{ y: 0, opacity: 1 }}
-                            //   transition={{
-                            //       duration: 1,delay:0.3
-                            //   }}
-                            className="last-cards-details-adventure-home">
+                                //   initial={{ y: 200, opacity: 0 }}
+                                //   whileInView={{ y: 0, opacity: 1 }}
+                                //   transition={{
+                                //       duration: 1,delay:0.3
+                                //   }}
+                                className="last-cards-details-adventure-home">
                                 <div className="cards-middle-inr-adven">
                                     <div className="perfect-adven-btn-linksec">
                                         <div className="tagdes-adven-categroy">Moderate</div>
                                         <div className="tagdes-adven-categroy">Land Scape </div>
                                     </div>
                                     <div className="cards-linkbtnmiddle">
-                                        <a href=""><img src="/images/fuelMemoriesImages/link-arrow-icon1.png" alt="" /></a>
+                                        <a href=""><Image height={500} width={500} src="/images/fuelMemoriesImages/link-arrow-icon1.png" alt="" /></a>
                                     </div>
                                 </div>
                                 <h3>Paragliding</h3>
@@ -147,8 +148,8 @@ export default function CategorySection() {
 
                     </div>
                     <div
-                     
-                    className="explore-btn-seclast">
+
+                        className="explore-btn-seclast">
                         <a href="" className="explore-all-btn">Explore All</a>
                     </div>
                 </div>

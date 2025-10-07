@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
         <footer className="footer-main-sec" id="contact">
@@ -5,7 +7,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-first-inner-sec">
                         <div className="first-logo-footer-sec">
-                            <a href="#"><img src="/images/luxeInteriorsImages/header-logo.png" alt="" /></a>
+                            <a href="#"><Image height={500} width={500} src="/images/luxeInteriorsImages/header-logo.png" alt="" /></a>
                         </div>
                         <div className="footer-inner-headinglink-mainsec row">
                             <div className="cmn-cards-inside-footer-links col-lg-3 col-md-6 col-sm-12">
@@ -31,10 +33,10 @@ export default function Footer() {
                             <h3>© 2024 Interior Decor. All Rights Reserved.</h3>
                         </div>
                         <div className="social-icons-copyright">
-                            <a href="#"><img src="/images/luxeInteriorsImages/facebook-icon-footer.png" alt="" /></a>
-                            <a href="#"><img src="/images/luxeInteriorsImages/instagram-icon-footer.png" alt="" /></a>
-                            <a href="#"><img src="/images/luxeInteriorsImages/twitter-icon-footer.png" alt="" /></a>
-                            <a href="#"><img src="/images/luxeInteriorsImages/linkedIn-icon-footer.png" alt="" /></a>
+                            <a href="#"><Image height={24} width={24} src="/images/luxeInteriorsImages/facebook-icon-footer.png" alt="" /></a>
+                            <a href="#"><Image height={24} width={24} src="/images/luxeInteriorsImages/instagram-icon-footer.png" alt="" /></a>
+                            <a href="#"><Image height={24} width={24} src="/images/luxeInteriorsImages/twitter-icon-footer.png" alt="" /></a>
+                            <a href="#"><Image height={24} width={24} src="/images/luxeInteriorsImages/linkedIn-icon-footer.png" alt="" /></a>
                         </div>
                         <div className="footer-menu-coyright">
                             <ul>
@@ -49,7 +51,7 @@ export default function Footer() {
                 </div>
             </div>
             {/* scroll top btn */}
-            <button className="scrool-to-top-btn active__scrolltopbtn"><img src="/images/luxeInteriorsImages/top-arrow-icon.png" alt="" /></button>
+            <button className="scrool-to-top-btn active__scrolltopbtn"><Image height={24} width={24} src="/images/luxeInteriorsImages/top-arrow-icon.png" alt="" /></button>
         </footer>
 
     )
