@@ -178,9 +178,16 @@ export const MUIStyle = {
     },
     CWCCardTextRow: {
         display: "flex",
-        justifyContent: "flex-start",
+        justifyContent: {
+            xs: "center",
+            sm: "flex-start",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+        },
         alignItems: "center",
         gap: "10px",
+        flexFlow: "wrap",
     },
     CWCCardPrice: {
         fontSize: FONT_SIZE.text20,
