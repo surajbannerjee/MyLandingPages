@@ -225,7 +225,13 @@ export const MUIStyle = {
     FooterCunnectMenuLi: {
         display: "grid",
         gap: "15px",
-        gridTemplateColumns: "40px 1fr",
+        gridTemplateColumns: {
+            xs: "1fr",
+            sm: "1fr",
+            md: "40px 1fr",
+            lg: "40px 1fr",
+            xl: "40px 1fr",
+        },
         alignItems: "center",
     },
     FooterMenuTitleText: {
