@@ -155,7 +155,14 @@ export const MUIStyle = {
     },
     BtnRow: {
         display: "flex",
-        justifyContent: "flex-start",
+        flexFlow: "wrap",
+        justifyContent: {
+            xs: "center",
+            sm: "flex-start",
+            md: "flex-start",
+            lg: "flex-start",
+            xl: "flex-start",
+        },
         alignItems: "center",
         gap: "30px",
         marginTop: "20px",
