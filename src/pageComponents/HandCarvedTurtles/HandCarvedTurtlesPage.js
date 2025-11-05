@@ -19,9 +19,9 @@ export default function HandCarvedTurtles() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 2.5 }}
-            style={{
-                overflow: "hidden",
-            }}
+        // style={{
+        //     overflow: "hidden",
+        // }}
         >
             <Header />
             <Banner />

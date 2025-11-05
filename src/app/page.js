@@ -7,26 +7,26 @@ import { Container, Typography } from '@mui/material';
 import { CRAVEKAVA, FUELMEMORIESWEBSITESS, HANDCARVEDTURTLESWEBSITESS, LUXEINTERIORSWEBSITESS, MENTALWELLNESSWEBSITESS, ORIONPERFORMANCEWEBSITESS, SECUREBOTWEBSITESS, TALLKWEBSITESS } from '@/values/Constants/ImageConstants';
 
 const images = [
-  {
-    ss: SECUREBOTWEBSITESS,
-    title: 'SecureBot Website',
-    url: '/secure-bot-ai'
-  },
+  // {
+  //   ss: SECUREBOTWEBSITESS,
+  //   title: 'SecureBot Website',
+  //   url: '/secure-bot-ai'
+  // },
   {
     ss: TALLKWEBSITESS,
     title: 'Tallk Website',
     url: '/tallk'
   },
-  {
-    ss: FUELMEMORIESWEBSITESS,
-    title: 'Fuel Memories Website',
-    url: '/fuel-memories'
-  },
-  {
-    ss: ORIONPERFORMANCEWEBSITESS,
-    title: 'Orion Performance Website',
-    url: '/orion-performance'
-  },
+  // {
+  //   ss: FUELMEMORIESWEBSITESS,
+  //   title: 'Fuel Memories Website',
+  //   url: '/fuel-memories'
+  // },
+  // {
+  //   ss: ORIONPERFORMANCEWEBSITESS,
+  //   title: 'Orion Performance Website',
+  //   url: '/orion-performance'
+  // },
   {
     ss: LUXEINTERIORSWEBSITESS,
     title: 'Luxe Interiors Website',
@@ -38,8 +38,8 @@ const images = [
     url: '/mental-wellness'
   },
   {
-    ss:CRAVEKAVA,
-     title: 'Crave Kava Website',
+    ss: CRAVEKAVA,
+    title: 'Crave Kava Website',
     url: '/crave-kava'
   },
   {
