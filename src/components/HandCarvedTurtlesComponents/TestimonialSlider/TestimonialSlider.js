@@ -10,6 +10,13 @@ function SampleNextArrow(props) {
         <Box
             className={[className, "CustomNext"]}
             onClick={onClick}
+            sx={{
+                display: {
+                    xs: "none",
+                    sm: "none",
+                    md: "block",
+                },
+            }}
         >
             <Box sx={MUIStyle.NextArrow}>
                 <Box component={"img"} src={HCTBTNARROW} />
@@ -24,6 +31,13 @@ function SamplePrevArrow(props) {
         <Box
             className={[className, "CustomPrev"]}
             onClick={onClick}
+            sx={{
+                display: {
+                    xs: "none",
+                    sm: "none",
+                    md: "block",
+                },
+            }}
         >
             <Box sx={MUIStyle.PrevArrow}>
                 <Box component={"img"} src={HCTBTNARROWLEFT} />
