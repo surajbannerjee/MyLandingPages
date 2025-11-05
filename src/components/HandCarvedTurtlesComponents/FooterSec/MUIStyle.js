@@ -15,6 +15,7 @@ export const MUIStyle = {
             xl: "50px",
         },
         paddingBottom: "30px",
+        overflow: "hidden",
     },
     FooterContentLeft: {
         display: "flex",

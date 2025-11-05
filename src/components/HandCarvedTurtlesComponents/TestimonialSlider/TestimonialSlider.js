@@ -33,8 +33,8 @@ function SamplePrevArrow(props) {
             onClick={onClick}
             sx={{
                 display: {
-                    xs: "none",
-                    sm: "none",
+                    xs: "none !important",
+                    sm: "none !important",
                     md: "block",
                 },
             }}
